@@ -1,0 +1,38 @@
+{
+  "id": "F07-sensitivity-1d",
+  "kind": "curves",
+  "synthetic": true,
+  "size_mm": [
+    100,
+    78
+  ],
+  "uncertainty": "sd",
+  "independent_unit": "Independent synthetic seed",
+  "source_path_base": "audit_directory",
+  "source_path_policy": "relative where possible; absolute across drives",
+  "source_sha256": {
+    "../examples/configs/F07-sensitivity-1d.json": "3f1cf2ec255d3286a141e46ba481b85f5aca12003f5158f8869ecb851a0931bb",
+    "../examples/data/F07-sensitivity-1d.csv": "b6a5645519eb9481f1dc2a4fd4d0451d12b8e37ead27216fcd95e347b4755450"
+  },
+  "outputs": [
+    "F07-sensitivity-1d.svg",
+    "F07-sensitivity-1d.pdf",
+    "F07-sensitivity-1d.png"
+  ],
+  "summary": {
+    "groups": 10,
+    "n_range": [
+      3,
+      3
+    ]
+  },
+  "visual_review": "required",
+  "generator_sha256": {
+    "figurekit.py": "911e94302c95a44917dc01877d0e7fbe21c30196435588a945d9a111a5eef544"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  }
+}

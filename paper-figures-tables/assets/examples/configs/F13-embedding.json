@@ -1,0 +1,36 @@
+{
+  "id": "F13-embedding",
+  "kind": "embedding",
+  "data": "../data/F13-embedding.csv",
+  "synthetic": true,
+  "provenance": "Deterministic teaching data from scripts/make_examples.py; not a paper reproduction or research result.",
+  "width_mm": 180,
+  "height_mm": 75,
+  "font_pt": 8,
+  "dpi": 300,
+  "formats": [
+    "svg",
+    "pdf",
+    "png"
+  ],
+  "uncertainty": "none",
+  "panels": [
+    "Before",
+    "After"
+  ],
+  "classes": [
+    "Class 1",
+    "Class 2",
+    "Class 3"
+  ],
+  "xlim": [
+    -5,
+    5
+  ],
+  "ylim": [
+    -4,
+    6
+  ],
+  "projection_protocol": "Synthetic 2D coordinates, no t-SNE or UMAP was run. Real tasks must supply method, fitted sample IDs, seed, parameters and joint/separate-fit policy.",
+  "title": "The same sample IDs under two representations"
+}

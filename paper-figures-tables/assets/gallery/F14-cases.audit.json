@@ -1,0 +1,46 @@
+{
+  "id": "F14-cases",
+  "kind": "cases",
+  "synthetic": true,
+  "size_mm": [
+    180,
+    100
+  ],
+  "uncertainty": "none",
+  "independent_unit": null,
+  "source_path_base": "audit_directory",
+  "source_path_policy": "relative where possible; absolute across drives",
+  "source_sha256": {
+    "../examples/configs/F14-cases.json": "79817b6c867755bb0061a78c4b3a452ea5184ed1dc3c25d37d9ca56fe3f154a9",
+    "../examples/data/F14-cases.csv": "4633ae21c3b7ec6abdaf68b6df31a2e7a4fc2c43d82f188ca6aeaad4c79795ee",
+    "../examples/images/C01-Input.png": "94c86abd4e10a39be1756dcceb9619bb2eb0f3688f7cfab4da7455c4c4a7e80f",
+    "../examples/images/C01-Baseline.png": "cbc05ead79054e2ffa3b0ceb37f9beda5af00daba57b8d13a3b7f61ac0850e55",
+    "../examples/images/C01-Proposed.png": "16caad4098449b662185c28ab151457ab28274bfccc57dc863ca270408463e25",
+    "../examples/images/C01-Reference.png": "16caad4098449b662185c28ab151457ab28274bfccc57dc863ca270408463e25",
+    "../examples/images/C02-Input.png": "94c86abd4e10a39be1756dcceb9619bb2eb0f3688f7cfab4da7455c4c4a7e80f",
+    "../examples/images/C02-Baseline.png": "cbc05ead79054e2ffa3b0ceb37f9beda5af00daba57b8d13a3b7f61ac0850e55",
+    "../examples/images/C02-Proposed.png": "cbc05ead79054e2ffa3b0ceb37f9beda5af00daba57b8d13a3b7f61ac0850e55",
+    "../examples/images/C02-Reference.png": "16caad4098449b662185c28ab151457ab28274bfccc57dc863ca270408463e25"
+  },
+  "outputs": [
+    "F14-cases.svg",
+    "F14-cases.pdf",
+    "F14-cases.png"
+  ],
+  "summary": {
+    "selection_protocol": "Two explicitly synthetic illustrative cases: one improvement and one retained failure. For research replace with predeclared selection and real IDs.",
+    "cases": [
+      "C01",
+      "C02"
+    ]
+  },
+  "visual_review": "required",
+  "generator_sha256": {
+    "figurekit.py": "911e94302c95a44917dc01877d0e7fbe21c30196435588a945d9a111a5eef544"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  }
+}

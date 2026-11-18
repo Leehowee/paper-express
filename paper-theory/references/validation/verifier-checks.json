@@ -1,0 +1,106 @@
+{
+  "checks": [
+    {
+      "case": "clean",
+      "expected": "checked",
+      "observed": "checked",
+      "problems": [],
+      "commands": [
+        {
+          "label": "lake-version",
+          "exit_code": 0
+        },
+        {
+          "label": "lean-version",
+          "exit_code": 0
+        },
+        {
+          "label": "build",
+          "exit_code": 0
+        },
+        {
+          "label": "axioms",
+          "exit_code": 0
+        }
+      ],
+      "axioms_by_theorem": {
+        "visible": []
+      }
+    },
+    {
+      "case": "placeholder",
+      "expected": "not_cleared",
+      "observed": "not_cleared",
+      "problems": [
+        "Additional axiom dependencies for visible",
+        "Source markers require review; no clean validation reported"
+      ],
+      "commands": [
+        {
+          "label": "lake-version",
+          "exit_code": 0
+        },
+        {
+          "label": "lean-version",
+          "exit_code": 0
+        },
+        {
+          "label": "build",
+          "exit_code": 0
+        },
+        {
+          "label": "axioms",
+          "exit_code": 0
+        }
+      ],
+      "axioms_by_theorem": {
+        "visible": [
+          "sorryAx"
+        ]
+      }
+    },
+    {
+      "case": "extra_axiom",
+      "expected": "not_cleared",
+      "observed": "not_cleared",
+      "problems": [
+        "Additional axiom dependencies for visible",
+        "Source markers require review; no clean validation reported"
+      ],
+      "commands": [
+        {
+          "label": "lake-version",
+          "exit_code": 0
+        },
+        {
+          "label": "lean-version",
+          "exit_code": 0
+        },
+        {
+          "label": "build",
+          "exit_code": 0
+        },
+        {
+          "label": "axioms",
+          "exit_code": 0
+        }
+      ],
+      "axioms_by_theorem": {
+        "visible": [
+          "unchecked"
+        ]
+      }
+    },
+    {
+      "case": "missing_audit",
+      "expected": "not_cleared",
+      "observed": "not_cleared",
+      "problems": [
+        "No explicit #print axioms entries found"
+      ],
+      "commands": [],
+      "axioms_by_theorem": {}
+    }
+  ],
+  "all_expected_outcomes": true
+}

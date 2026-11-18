@@ -1,0 +1,116 @@
+{
+  "verified_at_utc": "2026-11-18T00:06:35.540381+00:00",
+  "status": "passed",
+  "structure": {
+    "status": "passed",
+    "skill_entries": [
+      "paper-skills",
+      "paper-critical-review",
+      "paper-figures-tables",
+      "paper-idea-review",
+      "paper-theory",
+      "paper-writing"
+    ],
+    "local_markdown_links": 539,
+    "manifest_resource_paths": 156,
+    "markdown_files": 149,
+    "parsed_files": {
+      "yaml": 18,
+      "json": 53,
+      "python": 6
+    },
+    "ui_metadata_files": 6
+  },
+  "figures": {
+    "status": "pass",
+    "table_cells_independently_recomputed": 36,
+    "negative_input_cases": 27,
+    "native": {
+      "slides": 11,
+      "native_tables": 5,
+      "native_charts": 1,
+      "flattened_pictures": 0
+    },
+    "source_hashes_checked": true
+  },
+  "figure_report": {
+    "path": "paper-figures-tables/references/validation-report.json",
+    "sha256": "1e979b95d90954cd44b8d34031d4605c606859752fdc83cffcad64e82c462953"
+  },
+  "visual_scope": {
+    "previously_reviewed_files_unchanged": 33,
+    "reinspected_this_revision": [
+      "assets/gallery/F01-motivation.png",
+      "assets/gallery/T01-main.png"
+    ],
+    "pptx_unchanged_and_receipts_checked": true,
+    "powerpoint_gui_tested": false,
+    "latex_compiled": false
+  },
+  "lean": {
+    "status": "checked",
+    "lean_status": "checked",
+    "build_status": "passed",
+    "audit_entry_count": 11,
+    "delivered_source_files_match": 8,
+    "semantic_mapping": "not_reviewed_by_script",
+    "report": "references/validation/lean/verification.json",
+    "report_sha256": "2f4b052cda65be606e92f4ccc8d83e941feee41f59da47c6458ae4646b9c3587",
+    "state_cases": 6,
+    "state_case_record": "references/validation/lean-status-cases.json"
+  },
+  "independent_evaluations": [
+    {
+      "task": "idea-writing",
+      "mode": "independent_context_with_raw_request_no_expected_answer",
+      "artifacts": {
+        "tmp/final-skills-eval/idea-writing/assessment.md": "f3e6bbd955c4fef6213934cc53ffa304ec370d232ec9e50788338298e3bf2272",
+        "tmp/final-skills-eval/idea-writing/manuscript-draft.md": "feb15fe56f02f3ec565c616a326bc8c99a0c33dc34290fac5950023185565f5f",
+        "tmp/final-skills-eval/idea-writing/research-review.md": "80317a8be2bad8008c228e2fe094a5bd5300a86182ed8731ff98743f8514ef0a"
+      }
+    },
+    {
+      "task": "theory-review",
+      "mode": "independent_context_with_raw_request_no_expected_answer",
+      "artifacts": {
+        "tmp/final-skills-eval/theory-review/assessment.md": "aceb0237ceac1d77a546af4912cc855747514f43c9d52f90a359f52648782b24",
+        "tmp/final-skills-eval/theory-review/input.md": "6f1cd370669f08f1fd081e958107c67d11560c3731f66c97e494681c00cbef72",
+        "tmp/final-skills-eval/theory-review/L1-provided.lean": "2e91822bea16d47cf7a3ec2b391a68e8054edb4dd47b596c813ed425542100ce",
+        "tmp/final-skills-eval/theory-review/lean-fragment-result.yaml": "859da0347e1c0737737920195c6704a29f7f19ea0ec1f99089ac00f97679c0fe",
+        "tmp/final-skills-eval/theory-review/mathematical-audit.md": "ab41bfaa6c2fef4cb6060c9020cb00d90b5e8fff12327c8d7a1c7ee49e1f3953",
+        "tmp/final-skills-eval/theory-review/methods-revision.md": "c11aa325a5db7908e9d9d2b4dafa00dbe03ec7bd6102e3b7350cd9c295a75eb5",
+        "tmp/final-skills-eval/theory-review/theory-result-original.yaml": "b4c75f4c67645296402060588dc5bcdc5c3458b26a3d9f474d15b40331199308",
+        "tmp/final-skills-eval/theory-review/theory-result-revised.yaml": "7ca5f6fb531daa0de0a3673aa338dea524d9365572606bfdef0e556246b9df10",
+        "tmp/final-skills-eval/theory-review/tpami-review.md": "f799198f188b2654eb5997bb87a1a1baaff620cbd1148b96f0e30f9933857cb6"
+      }
+    }
+  ],
+  "entry_manifest_and_code_sha256": {
+    "manifest.yaml": "bfac83bab81bc3371a8b8fd401390af3eadb9da6b02252595de0a01126723df1",
+    "paper-critical-review/manifest.yaml": "06b41c6e998fe9a00390d8b57c53acf5f166371d9e293e4cba36dda7df01d10f",
+    "paper-critical-review/SKILL.md": "ee9fdb4d943f40cb7ea667c2bd4ee23c714027d95294d66552ffe79572e0ac60",
+    "paper-figures-tables/manifest.yaml": "67e24f6c9e0390359e0aaa6fc56bb1da35eeb01c5299ed6e2f2643d75abd3b60",
+    "paper-figures-tables/scripts/figurekit.py": "911e94302c95a44917dc01877d0e7fbe21c30196435588a945d9a111a5eef544",
+    "paper-figures-tables/scripts/make_examples.py": "5a53716c4e26b90dbdf939019c8359a7793f92f51af586e049a5a4c091bf04da",
+    "paper-figures-tables/scripts/render_all.py": "88cedb52678e9a0afa9b347a8486b6f21aa375b454e9f3885d67ede17915cbed",
+    "paper-figures-tables/scripts/tablekit.py": "86f8aafb6388fe8655820cf65146a075958236b1cf57490bb1438b9435dea805",
+    "paper-figures-tables/scripts/validate_package.py": "55a70724c6e27ee3d6541f144f50daff7a6e7798018faa0870a68b223768ec96",
+    "paper-figures-tables/SKILL.md": "f355803c062323b3bbe9d74aecbb4d2fba97e4227d2e50e74e21ca3791b7c6c3",
+    "paper-idea-review/manifest.yaml": "ccdf49d04e1d0ded49b0f380f99785a6ae47a6e94137772e845b8e8ef20d09d4",
+    "paper-idea-review/SKILL.md": "877252abf81ead744ac81dbfaed5bd864b4d4616927b6cb78e25797516f9664b",
+    "paper-theory/manifest.yaml": "ff5f1ef7f1d0c851419a9c05c2f83310cd55f2685bfae0d6afe1d658fbdc8e65",
+    "paper-theory/scripts/verify_lean.py": "755b3ccc9de4cf3e0a125ad3689c7ddcb3c93488a788985b679067a4e9aaa51f",
+    "paper-theory/SKILL.md": "6fc4f439b14d80ede3f6f512015894dd84cdd212076e49ac1058cd272b50e3aa",
+    "paper-writing/manifest.yaml": "f9d63a3092b8a6106b2335970a3fcfc7e75e5dd7d5bd8510fa620457a7bec4b9",
+    "paper-writing/SKILL.md": "6c59e174f4ac6339bb776e11154360160c2692d25c82e07298e1998ae76eb0fb",
+    "shared/research-context.md": "f407db06e29ae008b3c229cbcf43b0d3aeb1b41cdb13ade38e1068c42b00d0c9",
+    "SKILL.md": "12a1c8501d99f74ea3b456a181595f02c7e86a951ee72c984f93b90e9d20f46f"
+  },
+  "limits": [
+    "Synthetic examples and selected forward tasks; no estimate of review accuracy.",
+    "No new full-corpus paper reading or source-paper experiment reproduction.",
+    "No global skill installation.",
+    "No new PowerPoint GUI or TeX engine execution.",
+    "Lean library checks do not prove arbitrary manuscript algorithms."
+  ]
+}

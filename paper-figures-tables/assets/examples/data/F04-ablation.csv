@@ -1,0 +1,13 @@
+series,run,value,status
+Full,1,80.5,ok
+Full,2,81.1,ok
+Full,3,81.4,ok
+No reliability,1,75.35,ok
+No reliability,2,76.1,ok
+No reliability,3,76.55000000000001,ok
+No adaptation,1,77.2,ok
+No adaptation,2,78.1,ok
+No adaptation,3,78.7,ok
+Frozen update,1,81.05,ok
+Frozen update,2,82.1,ok
+Frozen update,3,82.85000000000001,ok

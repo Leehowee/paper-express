@@ -1,0 +1,135 @@
+{
+  "checked_at_utc": "2026-11-17T23:59:32.729711+00:00",
+  "project": "build-workspace:/tmp/paper-theory-check",
+  "commands": [
+    {
+      "label": "lake-version",
+      "argv": [
+        "build-workspace:/tmp/paper-theory-tools/lean-4.19.0-windows/bin/lake.exe",
+        "--version"
+      ],
+      "cwd": "build-workspace:/tmp/paper-theory-check",
+      "exit_code": 0,
+      "log": "lake-version.log"
+    },
+    {
+      "label": "lean-version",
+      "argv": [
+        "build-workspace:/tmp/paper-theory-tools/lean-4.19.0-windows/bin/lake.exe",
+        "env",
+        "lean",
+        "--version"
+      ],
+      "cwd": "build-workspace:/tmp/paper-theory-check",
+      "exit_code": 0,
+      "log": "lean-version.log"
+    },
+    {
+      "label": "build",
+      "argv": [
+        "build-workspace:/tmp/paper-theory-tools/lean-4.19.0-windows/bin/lake.exe",
+        "build"
+      ],
+      "cwd": "build-workspace:/tmp/paper-theory-check",
+      "exit_code": 0,
+      "log": "build.log"
+    },
+    {
+      "label": "axioms",
+      "argv": [
+        "build-workspace:/tmp/paper-theory-tools/lean-4.19.0-windows/bin/lake.exe",
+        "env",
+        "lean",
+        "Audit.lean"
+      ],
+      "cwd": "build-workspace:/tmp/paper-theory-check",
+      "exit_code": 0,
+      "log": "axioms.log"
+    }
+  ],
+  "source_hashes": {
+    "Audit.lean": "4618ed3dff658ec265b5d0263caac07a57b8241fc1f2491cbe6f928b6b7ac47e",
+    "lake-manifest.json": "b085c612554c01989115f9815dc53f284dae670ed500d0ba18c391d48efe149d",
+    "lakefile.toml": "67a8f903cf8c04dd81595257257e5796869a83532a79990429fd2fa1ae8c7980",
+    "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+    "PaperTheory/Core.lean": "a4d9509218afc671c739099a2b323cc86172484f826595529d3198a0a751fa8f",
+    "PaperTheory/Counterexamples.lean": "773fef37fee63c3fd4959372cd920bf5c211c47a713f962161f2d344de6aeb5f",
+    "PaperTheory/Example.lean": "816acc8578defdfb0e9987bbf4eb68623a0c4bb1949f89e7addf47fa4a0bccc6",
+    "PaperTheory.lean": "d7848de0c29018034ebbbdde0b963a39d878f7a71a241b22a13cf8305a4cc514"
+  },
+  "markers_requiring_review": [],
+  "axioms_by_theorem": {
+    "PaperTheory.minimizer_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaperTheory.two_block_descent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaperTheory.run_descent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaperTheory.approximate_optimum_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaperTheory.convex_attained_envelope": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaperTheory.quadratic_step_descent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaperTheory.quadratic_run_descent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaperTheory.constant_has_two_minimizers": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaperTheory.twoWell_not_convex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaperTheory.squared_one_sided_max_bound_fails": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "PaperTheory.run_feasible": []
+  },
+  "semantic_mapping": "not_reviewed_by_script",
+  "coverage": "build and explicitly listed axiom-audit entries only",
+  "build_status": "passed",
+  "lean_status": "checked",
+  "audit_entries": [
+    "PaperTheory.minimizer_transfer",
+    "PaperTheory.two_block_descent",
+    "PaperTheory.run_feasible",
+    "PaperTheory.run_descent",
+    "PaperTheory.approximate_optimum_transfer",
+    "PaperTheory.convex_attained_envelope",
+    "PaperTheory.quadratic_step_descent",
+    "PaperTheory.quadratic_run_descent",
+    "PaperTheory.constant_has_two_minimizers",
+    "PaperTheory.twoWell_not_convex",
+    "PaperTheory.squared_one_sided_max_bound_fails"
+  ],
+  "problems": [],
+  "status": "checked",
+  "proof_integrity_status": "clear_for_audited_entries",
+  "distribution_note": "Historical build record; build-workspace: paths are provenance placeholders, not runtime locations."
+}

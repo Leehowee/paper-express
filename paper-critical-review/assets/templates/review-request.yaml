@@ -1,0 +1,31 @@
+# 小任务可直接用自然语言传递这些信息；未知项保留 null，不先填猜测值。
+request_id: null
+manuscript:
+  title: null
+  version: null
+  files: []
+  supplied_scope: null
+  missing_materials: []
+target:
+  venue: null
+  year: null
+  track_or_article_type: null
+  literature_cutoff: null
+  policy_sources: []
+review:
+  scope: full-paper # full-paper / section / targeted / recheck
+  lens: unspecified # nature / nature-family / tpami / ccf-a / unspecified
+  best_paper_overlay: false
+  mode: single-report # multi-lens；独立小组仅在用户明确要求且可隔离时启用
+  focus_claims: []
+  requested_outputs: [review-report, revision-plan]
+evidence:
+  main_claims: []
+  nearest_works: []
+  raw_results: []
+  theory_and_lean_artifacts: []
+  figures_and_source_files: []
+revision:
+  previous_report: null
+  previous_version: null
+  change_locations: []

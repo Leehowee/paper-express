@@ -1,0 +1,7 @@
+Method / variant,Weight,Threshold,Selection,Validation / ACC ↑
+Validation sweep; test set not used for selection,,,,
+Setting 1,0.001,0.3,,71.0 ± 0.3
+Setting 2,0.01,0.3,,77.0 ± 0.3
+Setting 3,0.1,0.3,default,81.0 ± 0.3
+Setting 4,1,0.3,,80.0 ± 0.3
+Setting 5,0.1,0.7,,76.0 ± 0.3

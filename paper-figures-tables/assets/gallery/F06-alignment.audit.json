@@ -1,0 +1,38 @@
+{
+  "id": "F06-alignment",
+  "kind": "heatmap",
+  "synthetic": true,
+  "size_mm": [
+    180,
+    70
+  ],
+  "uncertainty": "none",
+  "independent_unit": null,
+  "source_path_base": "audit_directory",
+  "source_path_policy": "relative where possible; absolute across drives",
+  "source_sha256": {
+    "../examples/configs/F06-alignment.json": "461e6d5020a5ac86f8483e1f4656500c9aa2cf9f23903e156ea5c268cca1ac58",
+    "../examples/data/F06-alignment.csv": "fc8aced7f9fb51583951960e05f71339d317f4c6b1a35af88aa05d9bd99efa42"
+  },
+  "outputs": [
+    "F06-alignment.svg",
+    "F06-alignment.pdf",
+    "F06-alignment.png"
+  ],
+  "summary": {
+    "spacing": "categorical grid; axis labels state actual values",
+    "interpolation": "none",
+    "missing": "NA / grey",
+    "missing_cells": [],
+    "colorbar_quantity": "Similarity"
+  },
+  "visual_review": "required",
+  "generator_sha256": {
+    "figurekit.py": "911e94302c95a44917dc01877d0e7fbe21c30196435588a945d9a111a5eef544"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  }
+}

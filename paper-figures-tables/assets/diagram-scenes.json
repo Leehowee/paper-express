@@ -1,0 +1,1080 @@
+[
+  {
+    "id": "D01-comparison",
+    "title": "Matched method comparison",
+    "note": "SCHEMATIC TEMPLATE · identical task and inputs · replace labels with sourced definitions",
+    "nodes": [
+      {
+        "id": "r0label",
+        "label": "Prior route",
+        "x": 48,
+        "y": 205,
+        "w": 180,
+        "h": 55,
+        "fill": "none",
+        "font": 23,
+        "stroke": "none",
+        "align": "left",
+        "bold": true,
+        "color": "#263442"
+      },
+      {
+        "id": "r0in",
+        "label": "Input X",
+        "x": 235,
+        "y": 170,
+        "w": 160,
+        "h": 120,
+        "fill": "#E8F0F8",
+        "font": 22
+      },
+      {
+        "id": "r0rel",
+        "label": "Fixed relation\nmatrix",
+        "x": 455,
+        "y": 170,
+        "w": 230,
+        "h": 120,
+        "fill": "#F0F2F3",
+        "font": 22
+      },
+      {
+        "id": "r0enc",
+        "label": "Encoder",
+        "x": 745,
+        "y": 170,
+        "w": 200,
+        "h": 120,
+        "fill": "#E8F0F8",
+        "font": 22
+      },
+      {
+        "id": "r0out",
+        "label": "Output Y",
+        "x": 1005,
+        "y": 170,
+        "w": 210,
+        "h": 120,
+        "fill": "#E8F0F8",
+        "font": 22
+      },
+      {
+        "id": "r0assumption",
+        "label": "[Required assumption / information]",
+        "x": 250,
+        "y": 305,
+        "w": 930,
+        "h": 45,
+        "fill": "none",
+        "font": 19,
+        "stroke": "none",
+        "align": "left"
+      },
+      {
+        "id": "r1label",
+        "label": "Proposed route",
+        "x": 48,
+        "y": 450,
+        "w": 180,
+        "h": 55,
+        "fill": "none",
+        "font": 23,
+        "stroke": "none",
+        "align": "left",
+        "bold": true,
+        "color": "#0F4D92"
+      },
+      {
+        "id": "r1in",
+        "label": "Input X",
+        "x": 235,
+        "y": 415,
+        "w": 160,
+        "h": 120,
+        "fill": "#E8F0F8",
+        "font": 22
+      },
+      {
+        "id": "r1rel",
+        "label": "Reliability\nmatrix",
+        "x": 455,
+        "y": 415,
+        "w": 230,
+        "h": 120,
+        "fill": "#E8F0F8",
+        "font": 22
+      },
+      {
+        "id": "r1enc",
+        "label": "Weighted\nencoder",
+        "x": 745,
+        "y": 415,
+        "w": 200,
+        "h": 120,
+        "fill": "#E8F0F8",
+        "font": 22
+      },
+      {
+        "id": "r1out",
+        "label": "Output Y",
+        "x": 1005,
+        "y": 415,
+        "w": 210,
+        "h": 120,
+        "fill": "#E8F0F8",
+        "font": 22
+      },
+      {
+        "id": "r1assumption",
+        "label": "[Changed assumption / decision]",
+        "x": 250,
+        "y": 550,
+        "w": 930,
+        "h": 45,
+        "fill": "none",
+        "font": 19,
+        "stroke": "none",
+        "align": "left"
+      }
+    ],
+    "edges": [
+      {
+        "from": "r0in",
+        "to": "r0rel",
+        "fromSide": "right",
+        "toSide": "left"
+      },
+      {
+        "from": "r0rel",
+        "to": "r0enc",
+        "fromSide": "right",
+        "toSide": "left"
+      },
+      {
+        "from": "r0enc",
+        "to": "r0out",
+        "fromSide": "right",
+        "toSide": "left"
+      },
+      {
+        "from": "r1in",
+        "to": "r1rel",
+        "fromSide": "right",
+        "toSide": "left"
+      },
+      {
+        "from": "r1rel",
+        "to": "r1enc",
+        "fromSide": "right",
+        "toSide": "left"
+      },
+      {
+        "from": "r1enc",
+        "to": "r1out",
+        "fromSide": "right",
+        "toSide": "left"
+      }
+    ]
+  },
+  {
+    "id": "D02-method",
+    "title": "Method overview with an expanded focal module",
+    "note": "SCHEMATIC TEMPLATE · solid: forward computation · dashed: training objective / update",
+    "nodes": [
+      {
+        "id": "input-a",
+        "label": "Source A",
+        "x": 45,
+        "y": 200,
+        "w": 165,
+        "h": 80,
+        "fill": "#E4F2F2",
+        "font": 22
+      },
+      {
+        "id": "input-b",
+        "label": "Source B",
+        "x": 45,
+        "y": 355,
+        "w": 165,
+        "h": 80,
+        "fill": "#F1E7F1",
+        "font": 22
+      },
+      {
+        "id": "encoder-a",
+        "label": "Encoder A",
+        "x": 265,
+        "y": 200,
+        "w": 180,
+        "h": 80,
+        "fill": "#E8F0F8",
+        "font": 22
+      },
+      {
+        "id": "encoder-b",
+        "label": "Encoder B",
+        "x": 265,
+        "y": 355,
+        "w": 180,
+        "h": 80,
+        "fill": "#E8F0F8",
+        "font": 22
+      },
+      {
+        "id": "novel",
+        "label": "Focal module",
+        "x": 535,
+        "y": 190,
+        "w": 360,
+        "h": 255,
+        "fill": "#E8F0F8",
+        "font": 22,
+        "bold": true,
+        "vertical": "top"
+      },
+      {
+        "id": "condition",
+        "label": "Condition / prior",
+        "x": 565,
+        "y": 85,
+        "w": 300,
+        "h": 65,
+        "fill": "#F0F2F3",
+        "font": 22
+      },
+      {
+        "id": "output",
+        "label": "Prediction",
+        "x": 990,
+        "y": 270,
+        "w": 235,
+        "h": 90,
+        "fill": "#E8F0F8",
+        "font": 22
+      },
+      {
+        "id": "loss",
+        "label": "Loss (training only)",
+        "x": 560,
+        "y": 530,
+        "w": 320,
+        "h": 70,
+        "fill": "#F0F2F3",
+        "font": 22
+      },
+      {
+        "id": "formula",
+        "label": "[Eq. / operation]\n[shape and normalization]",
+        "x": 700,
+        "y": 285,
+        "w": 170,
+        "h": 110,
+        "fill": "none",
+        "font": 18,
+        "stroke": "none",
+        "align": "left"
+      },
+      {
+        "id": "matrix-0-0",
+        "label": "",
+        "x": 570,
+        "y": 280,
+        "w": 23,
+        "h": 23,
+        "fill": "#0F4D92",
+        "font": 22,
+        "stroke": "#FFFFFF"
+      },
+      {
+        "id": "matrix-0-1",
+        "label": "",
+        "x": 596,
+        "y": 280,
+        "w": 23,
+        "h": 23,
+        "fill": "#BCD0E2",
+        "font": 22,
+        "stroke": "#FFFFFF"
+      },
+      {
+        "id": "matrix-0-2",
+        "label": "",
+        "x": 622,
+        "y": 280,
+        "w": 23,
+        "h": 23,
+        "fill": "#BCD0E2",
+        "font": 22,
+        "stroke": "#FFFFFF"
+      },
+      {
+        "id": "matrix-0-3",
+        "label": "",
+        "x": 648,
+        "y": 280,
+        "w": 23,
+        "h": 23,
+        "fill": "#BCD0E2",
+        "font": 22,
+        "stroke": "#FFFFFF"
+      },
+      {
+        "id": "matrix-1-0",
+        "label": "",
+        "x": 570,
+        "y": 306,
+        "w": 23,
+        "h": 23,
+        "fill": "#BCD0E2",
+        "font": 22,
+        "stroke": "#FFFFFF"
+      },
+      {
+        "id": "matrix-1-1",
+        "label": "",
+        "x": 596,
+        "y": 306,
+        "w": 23,
+        "h": 23,
+        "fill": "#0F4D92",
+        "font": 22,
+        "stroke": "#FFFFFF"
+      },
+      {
+        "id": "matrix-1-2",
+        "label": "",
+        "x": 622,
+        "y": 306,
+        "w": 23,
+        "h": 23,
+        "fill": "#BCD0E2",
+        "font": 22,
+        "stroke": "#FFFFFF"
+      },
+      {
+        "id": "matrix-1-3",
+        "label": "",
+        "x": 648,
+        "y": 306,
+        "w": 23,
+        "h": 23,
+        "fill": "#BCD0E2",
+        "font": 22,
+        "stroke": "#FFFFFF"
+      },
+      {
+        "id": "matrix-2-0",
+        "label": "",
+        "x": 570,
+        "y": 332,
+        "w": 23,
+        "h": 23,
+        "fill": "#BCD0E2",
+        "font": 22,
+        "stroke": "#FFFFFF"
+      },
+      {
+        "id": "matrix-2-1",
+        "label": "",
+        "x": 596,
+        "y": 332,
+        "w": 23,
+        "h": 23,
+        "fill": "#BCD0E2",
+        "font": 22,
+        "stroke": "#FFFFFF"
+      },
+      {
+        "id": "matrix-2-2",
+        "label": "",
+        "x": 622,
+        "y": 332,
+        "w": 23,
+        "h": 23,
+        "fill": "#0F4D92",
+        "font": 22,
+        "stroke": "#FFFFFF"
+      },
+      {
+        "id": "matrix-2-3",
+        "label": "",
+        "x": 648,
+        "y": 332,
+        "w": 23,
+        "h": 23,
+        "fill": "#BCD0E2",
+        "font": 22,
+        "stroke": "#FFFFFF"
+      },
+      {
+        "id": "matrix-3-0",
+        "label": "",
+        "x": 570,
+        "y": 358,
+        "w": 23,
+        "h": 23,
+        "fill": "#BCD0E2",
+        "font": 22,
+        "stroke": "#FFFFFF"
+      },
+      {
+        "id": "matrix-3-1",
+        "label": "",
+        "x": 596,
+        "y": 358,
+        "w": 23,
+        "h": 23,
+        "fill": "#BCD0E2",
+        "font": 22,
+        "stroke": "#FFFFFF"
+      },
+      {
+        "id": "matrix-3-2",
+        "label": "",
+        "x": 622,
+        "y": 358,
+        "w": 23,
+        "h": 23,
+        "fill": "#BCD0E2",
+        "font": 22,
+        "stroke": "#FFFFFF"
+      },
+      {
+        "id": "matrix-3-3",
+        "label": "",
+        "x": 648,
+        "y": 358,
+        "w": 23,
+        "h": 23,
+        "fill": "#0F4D92",
+        "font": 22,
+        "stroke": "#FFFFFF"
+      }
+    ],
+    "edges": [
+      {
+        "from": "input-a",
+        "to": "encoder-a",
+        "fromSide": "right",
+        "toSide": "left"
+      },
+      {
+        "from": "input-b",
+        "to": "encoder-b",
+        "fromSide": "right",
+        "toSide": "left"
+      },
+      {
+        "from": "encoder-a",
+        "to": "novel",
+        "fromSide": "right",
+        "toSide": "left"
+      },
+      {
+        "from": "encoder-b",
+        "to": "novel",
+        "fromSide": "right",
+        "toSide": "left"
+      },
+      {
+        "from": "condition",
+        "to": "novel",
+        "fromSide": "bottom",
+        "toSide": "top"
+      },
+      {
+        "from": "novel",
+        "to": "output",
+        "fromSide": "right",
+        "toSide": "left"
+      },
+      {
+        "from": "output",
+        "to": "loss",
+        "fromSide": "bottom",
+        "toSide": "right",
+        "dash": true
+      },
+      {
+        "from": "loss",
+        "to": "encoder-a",
+        "fromSide": "left",
+        "toSide": "bottom",
+        "dash": true
+      },
+      {
+        "from": "loss",
+        "to": "encoder-b",
+        "fromSide": "left",
+        "toSide": "bottom",
+        "dash": true
+      }
+    ]
+  },
+  {
+    "id": "D03-temporal",
+    "title": "Problem example: time and correspondence",
+    "note": "SCHEMATIC TEMPLATE · replace placeholders with real frames, timestamps and verified annotations",
+    "nodes": [
+      {
+        "id": "frame-label",
+        "label": "Frames",
+        "x": 40,
+        "y": 155,
+        "w": 125,
+        "h": 45,
+        "fill": "none",
+        "font": 22,
+        "stroke": "none",
+        "align": "left",
+        "bold": true
+      },
+      {
+        "id": "text-label",
+        "label": "Captions",
+        "x": 40,
+        "y": 335,
+        "w": 125,
+        "h": 45,
+        "fill": "none",
+        "font": 22,
+        "stroke": "none",
+        "align": "left",
+        "bold": true
+      },
+      {
+        "id": "f0",
+        "label": "[Frame 1]",
+        "x": 175,
+        "y": 140,
+        "w": 175,
+        "h": 100,
+        "fill": "#F0F2F3",
+        "font": 22
+      },
+      {
+        "id": "time0",
+        "label": "[time 1]",
+        "x": 175,
+        "y": 250,
+        "w": 90,
+        "h": 35,
+        "fill": "none",
+        "font": 16,
+        "stroke": "none",
+        "align": "left"
+      },
+      {
+        "id": "t0",
+        "label": "[Caption 1]",
+        "x": 175,
+        "y": 325,
+        "w": 175,
+        "h": 100,
+        "fill": "#F0F6F8",
+        "font": 22
+      },
+      {
+        "id": "f1",
+        "label": "[Frame 2]",
+        "x": 380,
+        "y": 140,
+        "w": 175,
+        "h": 100,
+        "fill": "#F0F2F3",
+        "font": 22
+      },
+      {
+        "id": "time1",
+        "label": "[time 2]",
+        "x": 380,
+        "y": 250,
+        "w": 90,
+        "h": 35,
+        "fill": "none",
+        "font": 16,
+        "stroke": "none",
+        "align": "left"
+      },
+      {
+        "id": "t1",
+        "label": "[Caption 2]",
+        "x": 380,
+        "y": 325,
+        "w": 175,
+        "h": 100,
+        "fill": "#F0F6F8",
+        "font": 22
+      },
+      {
+        "id": "f2",
+        "label": "[Frame 3]",
+        "x": 585,
+        "y": 140,
+        "w": 175,
+        "h": 100,
+        "fill": "#F0F2F3",
+        "font": 22
+      },
+      {
+        "id": "time2",
+        "label": "[time 3]",
+        "x": 585,
+        "y": 250,
+        "w": 90,
+        "h": 35,
+        "fill": "none",
+        "font": 16,
+        "stroke": "none",
+        "align": "left"
+      },
+      {
+        "id": "t2",
+        "label": "[Caption 3]",
+        "x": 585,
+        "y": 325,
+        "w": 175,
+        "h": 100,
+        "fill": "#F0F6F8",
+        "font": 22
+      },
+      {
+        "id": "f3",
+        "label": "[Frame 4]",
+        "x": 790,
+        "y": 140,
+        "w": 175,
+        "h": 100,
+        "fill": "#F0F2F3",
+        "font": 22
+      },
+      {
+        "id": "time3",
+        "label": "[time 4]",
+        "x": 790,
+        "y": 250,
+        "w": 90,
+        "h": 35,
+        "fill": "none",
+        "font": 16,
+        "stroke": "none",
+        "align": "left"
+      },
+      {
+        "id": "t3",
+        "label": "[Caption 4]",
+        "x": 790,
+        "y": 325,
+        "w": 175,
+        "h": 100,
+        "fill": "#F0F6F8",
+        "font": 22
+      },
+      {
+        "id": "f4",
+        "label": "[Frame 5]",
+        "x": 995,
+        "y": 140,
+        "w": 175,
+        "h": 100,
+        "fill": "#F0F2F3",
+        "font": 22
+      },
+      {
+        "id": "time4",
+        "label": "[time 5]",
+        "x": 995,
+        "y": 250,
+        "w": 90,
+        "h": 35,
+        "fill": "none",
+        "font": 16,
+        "stroke": "none",
+        "align": "left"
+      },
+      {
+        "id": "t4",
+        "label": "[Caption 5]",
+        "x": 995,
+        "y": 325,
+        "w": 175,
+        "h": 100,
+        "fill": "#F0F6F8",
+        "font": 22
+      },
+      {
+        "id": "observed",
+        "label": "Observed pairing: dashed arrows",
+        "x": 175,
+        "y": 485,
+        "w": 900,
+        "h": 42,
+        "fill": "none",
+        "font": 20,
+        "stroke": "none",
+        "align": "left"
+      },
+      {
+        "id": "annotation",
+        "label": "[Annotate asynchronous / irrelevant / fine-grained mismatch here]",
+        "x": 175,
+        "y": 540,
+        "w": 1000,
+        "h": 55,
+        "fill": "none",
+        "font": 21,
+        "stroke": "none",
+        "align": "left",
+        "color": "#0F4D92"
+      }
+    ],
+    "edges": [
+      {
+        "from": "f0",
+        "to": "t0",
+        "fromSide": "bottom",
+        "toSide": "top",
+        "dash": true
+      },
+      {
+        "from": "f1",
+        "to": "t1",
+        "fromSide": "bottom",
+        "toSide": "top",
+        "dash": true
+      },
+      {
+        "from": "f2",
+        "to": "t2",
+        "fromSide": "bottom",
+        "toSide": "top",
+        "dash": true
+      },
+      {
+        "from": "f3",
+        "to": "t3",
+        "fromSide": "bottom",
+        "toSide": "top",
+        "dash": true
+      },
+      {
+        "from": "f4",
+        "to": "t4",
+        "fromSide": "bottom",
+        "toSide": "top",
+        "dash": true
+      }
+    ]
+  },
+  {
+    "id": "D04-retrieval-cases",
+    "title": "Case evidence: query, candidates and a retained failure",
+    "note": "PLACEHOLDER TEMPLATE · retain sample IDs, selection rule, relevance labels and rank changes",
+    "nodes": [
+      {
+        "id": "case0",
+        "label": "[Success case ID]",
+        "x": 42,
+        "y": 140,
+        "w": 200,
+        "h": 45,
+        "fill": "none",
+        "font": 22,
+        "stroke": "none",
+        "align": "left",
+        "bold": true
+      },
+      {
+        "id": "query0",
+        "label": "[Query]\n[Criterion]",
+        "x": 42,
+        "y": 195,
+        "w": 200,
+        "h": 125,
+        "fill": "#F0F2F3",
+        "font": 22
+      },
+      {
+        "id": "cand00",
+        "label": "[Candidate 1]\n[rank / relevance]",
+        "x": 290,
+        "y": 175,
+        "w": 195,
+        "h": 135,
+        "fill": "#E8F0F8",
+        "font": 22
+      },
+      {
+        "id": "cand01",
+        "label": "[Candidate 2]\n[rank / relevance]",
+        "x": 515,
+        "y": 175,
+        "w": 195,
+        "h": 135,
+        "fill": "#F0F2F3",
+        "font": 22
+      },
+      {
+        "id": "cand02",
+        "label": "[Candidate 3]\n[rank / relevance]",
+        "x": 740,
+        "y": 175,
+        "w": 195,
+        "h": 135,
+        "fill": "#F0F2F3",
+        "font": 22
+      },
+      {
+        "id": "cand03",
+        "label": "[Candidate 4]\n[rank / relevance]",
+        "x": 965,
+        "y": 175,
+        "w": 195,
+        "h": 135,
+        "fill": "#F0F2F3",
+        "font": 22
+      },
+      {
+        "id": "reason0",
+        "label": "[Observed change and verified reason; separate model explanation from ground truth]",
+        "x": 290,
+        "y": 322,
+        "w": 890,
+        "h": 40,
+        "fill": "none",
+        "font": 18,
+        "stroke": "none",
+        "align": "left"
+      },
+      {
+        "id": "case1",
+        "label": "[Failure case ID]",
+        "x": 42,
+        "y": 380,
+        "w": 200,
+        "h": 45,
+        "fill": "none",
+        "font": 22,
+        "stroke": "none",
+        "align": "left",
+        "bold": true
+      },
+      {
+        "id": "query1",
+        "label": "[Query]\n[Criterion]",
+        "x": 42,
+        "y": 435,
+        "w": 200,
+        "h": 125,
+        "fill": "#F0F2F3",
+        "font": 22
+      },
+      {
+        "id": "cand10",
+        "label": "[Candidate 1]\n[rank / relevance]",
+        "x": 290,
+        "y": 415,
+        "w": 195,
+        "h": 135,
+        "fill": "#E8F0F8",
+        "font": 22
+      },
+      {
+        "id": "cand11",
+        "label": "[Candidate 2]\n[rank / relevance]",
+        "x": 515,
+        "y": 415,
+        "w": 195,
+        "h": 135,
+        "fill": "#F0F2F3",
+        "font": 22
+      },
+      {
+        "id": "cand12",
+        "label": "[Candidate 3]\n[rank / relevance]",
+        "x": 740,
+        "y": 415,
+        "w": 195,
+        "h": 135,
+        "fill": "#F0F2F3",
+        "font": 22
+      },
+      {
+        "id": "cand13",
+        "label": "[Candidate 4]\n[rank / relevance]",
+        "x": 965,
+        "y": 415,
+        "w": 195,
+        "h": 135,
+        "fill": "#F0F2F3",
+        "font": 22
+      },
+      {
+        "id": "reason1",
+        "label": "[Observed change and verified reason; separate model explanation from ground truth]",
+        "x": 290,
+        "y": 562,
+        "w": 890,
+        "h": 40,
+        "fill": "none",
+        "font": 18,
+        "stroke": "none",
+        "align": "left"
+      }
+    ],
+    "edges": []
+  },
+  {
+    "id": "D06-compound",
+    "title": "Compose one figure around one scientific question",
+    "note": "LAYOUT TEMPLATE · each panel has a distinct role · preserve units, legends and evidence types",
+    "nodes": [
+      {
+        "id": "a",
+        "label": "",
+        "x": 48,
+        "y": 135,
+        "w": 555,
+        "h": 210,
+        "fill": "#FAFBFC",
+        "font": 22,
+        "stroke": "#BCC8D2"
+      },
+      {
+        "id": "atitle",
+        "label": "a  Controlled observation",
+        "x": 63,
+        "y": 145,
+        "w": 525,
+        "h": 40,
+        "fill": "none",
+        "font": 22,
+        "stroke": "none",
+        "align": "left",
+        "bold": true
+      },
+      {
+        "id": "afill",
+        "label": "[Insert a data-generated plot or a documented case]",
+        "x": 68,
+        "y": 218,
+        "w": 515,
+        "h": 65,
+        "fill": "none",
+        "font": 20,
+        "stroke": "none",
+        "align": "left"
+      },
+      {
+        "id": "b",
+        "label": "",
+        "x": 650,
+        "y": 135,
+        "w": 580,
+        "h": 210,
+        "fill": "#FAFBFC",
+        "font": 22,
+        "stroke": "#BCC8D2"
+      },
+      {
+        "id": "btitle",
+        "label": "b  Mechanism diagnostic",
+        "x": 665,
+        "y": 145,
+        "w": 550,
+        "h": 40,
+        "fill": "none",
+        "font": 22,
+        "stroke": "none",
+        "align": "left",
+        "bold": true
+      },
+      {
+        "id": "bfill",
+        "label": "[Insert a data-generated plot or a documented case]",
+        "x": 670,
+        "y": 218,
+        "w": 540,
+        "h": 65,
+        "fill": "none",
+        "font": 20,
+        "stroke": "none",
+        "align": "left"
+      },
+      {
+        "id": "c",
+        "label": "",
+        "x": 48,
+        "y": 395,
+        "w": 555,
+        "h": 210,
+        "fill": "#FAFBFC",
+        "font": 22,
+        "stroke": "#BCC8D2"
+      },
+      {
+        "id": "ctitle",
+        "label": "c  Intervention / ablation",
+        "x": 63,
+        "y": 405,
+        "w": 525,
+        "h": 40,
+        "fill": "none",
+        "font": 22,
+        "stroke": "none",
+        "align": "left",
+        "bold": true
+      },
+      {
+        "id": "cfill",
+        "label": "[Insert a data-generated plot or a documented case]",
+        "x": 68,
+        "y": 478,
+        "w": 515,
+        "h": 65,
+        "fill": "none",
+        "font": 20,
+        "stroke": "none",
+        "align": "left"
+      },
+      {
+        "id": "d",
+        "label": "",
+        "x": 650,
+        "y": 395,
+        "w": 580,
+        "h": 210,
+        "fill": "#FAFBFC",
+        "font": 22,
+        "stroke": "#BCC8D2"
+      },
+      {
+        "id": "dtitle",
+        "label": "d  Boundary / failure case",
+        "x": 665,
+        "y": 405,
+        "w": 550,
+        "h": 40,
+        "fill": "none",
+        "font": 22,
+        "stroke": "none",
+        "align": "left",
+        "bold": true
+      },
+      {
+        "id": "dfill",
+        "label": "[Insert a data-generated plot or a documented case]",
+        "x": 670,
+        "y": 478,
+        "w": 540,
+        "h": 65,
+        "fill": "none",
+        "font": 20,
+        "stroke": "none",
+        "align": "left"
+      }
+    ],
+    "edges": []
+  }
+]

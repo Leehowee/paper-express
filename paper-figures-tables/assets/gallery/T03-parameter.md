@@ -1,0 +1,10 @@
+| Method / variant | Weight | Threshold | Selection | Validation / ACC ↑ |
+| --- | --- | --- | --- | --- |
+| Validation sweep; test set not used for selection |  |  |  |  |
+| Setting 1 | 0.001 | 0.3 |  | 71.0 ± 0.3 |
+| Setting 2 | 0.01 | 0.3 |  | 77.0 ± 0.3 |
+| Setting 3 | 0.1 | 0.3 | default | **81.0 ± 0.3** |
+| Setting 4 | 1 | 0.3 |  | 80.0 ± 0.3 |
+| Setting 5 | 0.1 | 0.7 |  | 76.0 ± 0.3 |
+
+SYNTHETIC EXAMPLE. Mean ± sample SD over three independent synthetic runs. One- and two-factor settings are explicitly enumerated. Default is selected on validation data; this example does not establish a real optimal setting. Bold: best displayed mean within each comparison block; ties at displayed precision are retained. This marking is not a significance test.

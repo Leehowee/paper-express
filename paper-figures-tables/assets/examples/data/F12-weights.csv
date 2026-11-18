@@ -1,0 +1,11 @@
+series,component,value
+Baseline,K1,0.1
+Baseline,K2,0.12
+Baseline,K3,0.13
+Baseline,K4,0.15
+Baseline,K5,0.5
+Proposed,K1,0.2
+Proposed,K2,0.2
+Proposed,K3,0.2
+Proposed,K4,0.22
+Proposed,K5,0.18

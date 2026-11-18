@@ -1,0 +1,27 @@
+# Local builds, dependencies, and editor state
+.build/
+tmp/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.lake/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Historical bundles and machine-specific maintenance receipts
+dist/archive/
+packaging/validation.json
+packaging/readme-validation.json
+packaging/agent-install-validation.json
+packaging/native-agent-install-validation.json

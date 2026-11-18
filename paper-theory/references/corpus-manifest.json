@@ -1,0 +1,212 @@
+{
+  "compiled_at": "2026-11-18",
+  "scope": "Theory-focused close reading and critical mathematical analysis; source papers are not fully formalized. Generic Lean assets are separately authored and checked.",
+  "page_numbering": "one-based physical PDF pages",
+  "papers": [
+    {
+      "id": "XL01",
+      "title": "Efficient and Effective Regularized Incomplete Multi-View Clustering",
+      "path_from_workspace": "XinwangLiu/TPAMI/1_4_XinwangLiu_TPAMI21.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/1_4_XinwangLiu_TPAMI21.pdf",
+      "sha256": "e8c9fbddc7a686cecb76abaa8785744d94ad661965715e3fb1106758fd23f5c0",
+      "pdf_pages": 13,
+      "local_version_note": "TPAMI 43(8), 2021，13 页",
+      "author_role": "coauthored, verified from local PDF first page",
+      "first_page_author_checked": true,
+      "theory_pages_read": [
+        4,
+        5,
+        6
+      ],
+      "visually_reviewed_pdf_pages": [],
+      "complete_paper_formalization": false,
+      "replicated_experiments": false,
+      "audit_scope": "Selected mathematical arguments and conditions; missing external proofs are not verified."
+    },
+    {
+      "id": "XL02",
+      "title": "Multiple Kernel k-Means with Incomplete Kernels",
+      "path_from_workspace": "XinwangLiu/TPAMI/2_2_XinwangLiu_TPAMI20.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/2_2_XinwangLiu_TPAMI20.pdf",
+      "sha256": "1c333b05b32bff25ef4cd89a5575d16492d60124459979d7ec7ed78674088abf",
+      "pdf_pages": 14,
+      "local_version_note": "TPAMI 42(5), 2020，14 页",
+      "author_role": "coauthored, verified from local PDF first page",
+      "first_page_author_checked": true,
+      "theory_pages_read": [
+        5,
+        6
+      ],
+      "visually_reviewed_pdf_pages": [],
+      "complete_paper_formalization": false,
+      "replicated_experiments": false,
+      "audit_scope": "Selected mathematical arguments and conditions; missing external proofs are not verified."
+    },
+    {
+      "id": "XL03",
+      "title": "Absent Multiple Kernel Learning Algorithms",
+      "path_from_workspace": "XinwangLiu/TPAMI/2_3_XinwangLiu_TPAMI20.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/2_3_XinwangLiu_TPAMI20.pdf",
+      "sha256": "aebf95e6a2df04747d6901099a3718864243069ccdc0a2654821dc3a3e92bf70",
+      "pdf_pages": 14,
+      "local_version_note": "TPAMI 42(6), 2020，14 页",
+      "author_role": "coauthored, verified from local PDF first page",
+      "first_page_author_checked": true,
+      "theory_pages_read": [
+        5,
+        6,
+        7
+      ],
+      "visually_reviewed_pdf_pages": [],
+      "complete_paper_formalization": false,
+      "replicated_experiments": false,
+      "audit_scope": "Selected mathematical arguments and conditions; missing external proofs are not verified."
+    },
+    {
+      "id": "XL04",
+      "title": "Communication-Efficient Federated Multi-view Clustering",
+      "path_from_workspace": "XinwangLiu/TPAMI/CeFMC_early_access.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/CeFMC_early_access.pdf",
+      "sha256": "9fef8f9a3b6cce7d8e54f03ef5b22770496459406329932f17de4819ac9d3005",
+      "pdf_pages": 16,
+      "local_version_note": "2025 accepted author version，16 页",
+      "author_role": "coauthored, verified from local PDF first page",
+      "first_page_author_checked": true,
+      "theory_pages_read": [
+        8
+      ],
+      "visually_reviewed_pdf_pages": [],
+      "complete_paper_formalization": false,
+      "replicated_experiments": false,
+      "audit_scope": "Selected mathematical arguments and conditions; missing external proofs are not verified."
+    },
+    {
+      "id": "XL05",
+      "title": "Contrastive Multi-View Kernel Learning",
+      "path_from_workspace": "XinwangLiu/TPAMI/Contrastive_Multi-view_Kernel_Learning.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/Contrastive_Multi-view_Kernel_Learning.pdf",
+      "sha256": "aec8a786ee1cb136f2bad738406c133a728607125556e53f03f3c43903dd57e0",
+      "pdf_pages": 15,
+      "local_version_note": "TPAMI 45(8), 2023，15 页",
+      "author_role": "coauthored, verified from local PDF first page",
+      "first_page_author_checked": true,
+      "theory_pages_read": [
+        3,
+        4
+      ],
+      "visually_reviewed_pdf_pages": [],
+      "complete_paper_formalization": false,
+      "replicated_experiments": false,
+      "audit_scope": "Selected mathematical arguments and conditions; missing external proofs are not verified."
+    },
+    {
+      "id": "XL06",
+      "title": "Hyperparameter-Free Localized Simple Multiple Kernel K-means With Global Optimum",
+      "path_from_workspace": "XinwangLiu/TPAMI/Hyperparameter-Free_Localized_Simple_Multiple_Kernel_K-means_With_Global_Optimum.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/Hyperparameter-Free_Localized_Simple_Multiple_Kernel_K-means_With_Global_Optimum.pdf",
+      "sha256": "537c5476e4c6c7cc6a19485548dd6974b93601854a1224907e91b83e3669b472",
+      "pdf_pages": 11,
+      "local_version_note": "TPAMI 45(7), 2023，11 页",
+      "author_role": "sole author, verified from local PDF first page",
+      "first_page_author_checked": true,
+      "theory_pages_read": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "visually_reviewed_pdf_pages": [
+        4,
+        6
+      ],
+      "complete_paper_formalization": false,
+      "replicated_experiments": false,
+      "audit_scope": "Selected mathematical arguments and conditions; missing external proofs are not verified."
+    },
+    {
+      "id": "XL07",
+      "title": "Generalized Probabilistic Graphical Modeling for Multi-View Bipartite Graph Clustering",
+      "path_from_workspace": "XinwangLiu/TPAMI/Liang-Li-IEEE-TPAMI-2025.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/Liang-Li-IEEE-TPAMI-2025.pdf",
+      "sha256": "f90f657d72b40795cd6042161cdd0897fca6b317724a9d2ce1b1a17097290642",
+      "pdf_pages": 14,
+      "local_version_note": "TPAMI 47(12), 2025，14 页",
+      "author_role": "coauthored, verified from local PDF first page",
+      "first_page_author_checked": true,
+      "theory_pages_read": [
+        3,
+        4,
+        6
+      ],
+      "visually_reviewed_pdf_pages": [],
+      "complete_paper_formalization": false,
+      "replicated_experiments": false,
+      "audit_scope": "Selected mathematical arguments and conditions; missing external proofs are not verified."
+    },
+    {
+      "id": "XL08",
+      "title": "SimpleMKKM: Simple Multiple Kernel K-means",
+      "path_from_workspace": "XinwangLiu/TPAMI/SimpleMKKM.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/SimpleMKKM.pdf",
+      "sha256": "2572e490c7a775f45a9539ca6bde0e445f7186e3f6563e6cac5ec737b343e442",
+      "pdf_pages": 13,
+      "local_version_note": "本地稿件抬头为 submitted 2022，13 页",
+      "author_role": "sole author, verified from local PDF first page",
+      "first_page_author_checked": true,
+      "theory_pages_read": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "visually_reviewed_pdf_pages": [
+        4
+      ],
+      "complete_paper_formalization": false,
+      "replicated_experiments": false,
+      "audit_scope": "Selected mathematical arguments and conditions; missing external proofs are not verified."
+    },
+    {
+      "id": "XL09",
+      "title": "Incomplete Multiple Kernel Alignment Maximization for Clustering",
+      "path_from_workspace": "XinwangLiu/TPAMI/TPAMI_IncomSimpleMKKM.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/TPAMI_IncomSimpleMKKM.pdf",
+      "sha256": "826a7b769174ae459d52269f4e6e656bc6de75a2c8d3b86cde89695d262595c0",
+      "pdf_pages": 13,
+      "local_version_note": "本地稿件抬头为 June 2021，13 页",
+      "author_role": "sole author, verified from local PDF first page",
+      "first_page_author_checked": true,
+      "theory_pages_read": [
+        3,
+        4,
+        5
+      ],
+      "visually_reviewed_pdf_pages": [
+        4
+      ],
+      "complete_paper_formalization": false,
+      "replicated_experiments": false,
+      "audit_scope": "Selected mathematical arguments and conditions; missing external proofs are not verified."
+    }
+  ],
+  "external_supplements": [
+    {
+      "parent_id": "XL08",
+      "url": "https://xinwangliu.github.io/groupmember/Appendix_SimpleMKKM.pdf",
+      "local_cache_from_workspace": "tmp/pdfs/paper-theory/Appendix_SimpleMKKM.pdf",
+      "sha256": "2885b378326c9cd13bdc9b9eaab506cd4a9d1b9b65d59164e06d1447842f7ff7",
+      "pdf_pages": 2,
+      "read_pages": [
+        1,
+        2
+      ],
+      "visually_reviewed_pdf_pages": [
+        2
+      ],
+      "version_note": "Public author appendix with unresolved numbering/citation placeholders; not assumed to be final publisher supplement.",
+      "retrieved_at": "2026-11-18",
+      "complete_proof_certified": false
+    }
+  ]
+}

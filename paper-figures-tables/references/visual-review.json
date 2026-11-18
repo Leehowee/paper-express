@@ -1,0 +1,176 @@
+{
+  "review_date": "2026-11-18",
+  "status": "reviewed_with_scope",
+  "items": [
+    {
+      "path": "assets/gallery/F01-motivation.png",
+      "sha256": "6f08eecf03baf0d700fed8a16dcf19010724486e3adf82d390d82fbf854c52b4",
+      "review_mode": "PNG inspection, with corresponding PDF raster review"
+    },
+    {
+      "path": "assets/gallery/F04-ablation.png",
+      "sha256": "fa3d908c8c10644d4305463bf30872637f3a99999bb12aa5a15a9847ce9d8cdc",
+      "review_mode": "PNG inspection, with corresponding PDF raster review"
+    },
+    {
+      "path": "assets/gallery/F05-distribution.png",
+      "sha256": "8f2288f14b6a1fcb92e9ec246d96453318d1c4a210dd851dd8c781a31c91a9e3",
+      "review_mode": "PNG inspection, with corresponding PDF raster review"
+    },
+    {
+      "path": "assets/gallery/F06-alignment.png",
+      "sha256": "b228032558ea0eeb30a76bfa2c6801c7f6601fe5140c2519979182a3656d882d",
+      "review_mode": "PNG inspection, with corresponding PDF raster review"
+    },
+    {
+      "path": "assets/gallery/F07-sensitivity-1d.png",
+      "sha256": "e47d5b34c7aa28749b10db3cf1fd1101856a95ba7e38f2dd7df712c5118cece5",
+      "review_mode": "PNG inspection, with corresponding PDF raster review"
+    },
+    {
+      "path": "assets/gallery/F08-sensitivity-2d.png",
+      "sha256": "f3f450290d6df3b846994172861e75edbbe75246a1bb47ccc12fbe09c6937660",
+      "review_mode": "PNG inspection, with corresponding PDF raster review"
+    },
+    {
+      "path": "assets/gallery/F09-robustness.png",
+      "sha256": "860ad5241ac237a210d92e75109983af3d3736daedc3a9dc64069a9cf9222a81",
+      "review_mode": "PNG inspection, with corresponding PDF raster review"
+    },
+    {
+      "path": "assets/gallery/F10-convergence.png",
+      "sha256": "93334c85b9b29bcdb906b8132b7dad42f32b573462d0ed76eddc64e6a092298c",
+      "review_mode": "PNG inspection, with corresponding PDF raster review"
+    },
+    {
+      "path": "assets/gallery/F11-efficiency.png",
+      "sha256": "d9a830e9e670c498edf936c535e6fb84ba642c4e20ea460fa6d212fd3823a1cf",
+      "review_mode": "PNG inspection, with corresponding PDF raster review"
+    },
+    {
+      "path": "assets/gallery/F12-weights.png",
+      "sha256": "470183eec14234089c22291d1578c97e58b14d491016a37c9056b061132ab14d",
+      "review_mode": "PNG inspection, with corresponding PDF raster review"
+    },
+    {
+      "path": "assets/gallery/F13-embedding.png",
+      "sha256": "910fa1d5dfee81e11e47671eb503f54626357e8d4c7833b3b7b71c26834f8e8a",
+      "review_mode": "PNG inspection, with corresponding PDF raster review"
+    },
+    {
+      "path": "assets/gallery/F14-cases.png",
+      "sha256": "59f32983803bd80838563bdcb681fb327f336b8787668175247448c95ab851dc",
+      "review_mode": "PNG inspection, with corresponding PDF raster review"
+    },
+    {
+      "path": "assets/gallery/T01-main.png",
+      "sha256": "f806252b2ac73d3126039ab36b8fc03a1aca80744584ecf7ca37c5ed7b40521f",
+      "review_mode": "PNG inspection, with corresponding PDF raster review"
+    },
+    {
+      "path": "assets/gallery/T02-ablation.png",
+      "sha256": "9bf0fc89ee6487c215683e6a160f4df78299602ac8802224f3e84e365eb3dfe3",
+      "review_mode": "PNG inspection, with corresponding PDF raster review"
+    },
+    {
+      "path": "assets/gallery/T03-parameter.png",
+      "sha256": "513f7c43bcb54a7dfb8bc6c2cad9d47f85518956486eb286166f8101d311d0e4",
+      "review_mode": "PNG inspection, with corresponding PDF raster review"
+    },
+    {
+      "path": "assets/gallery/T04-efficiency.png",
+      "sha256": "584017f5d0b366b0a3d2827937a7ea84288de568c473c098beb9ec1c36573531",
+      "review_mode": "PNG inspection, with corresponding PDF raster review"
+    },
+    {
+      "path": "assets/native/01-D01-comparison.png",
+      "sha256": "c74c770829cf92659fa8ae29cdff2fa1ef9e5257dd1fc2461bf722524a30c342",
+      "review_mode": "Rendered after PPTX export and reimport"
+    },
+    {
+      "path": "assets/native/02-D02-method.png",
+      "sha256": "535a6c2ea72f0d3de8bea6546bdb278a73c9f91aa3120d5a79ca1dd59edbf2be",
+      "review_mode": "Rendered after PPTX export and reimport"
+    },
+    {
+      "path": "assets/native/03-D03-temporal.png",
+      "sha256": "8ae0e4a9dfcd430134c02d5c72578d5cfc837d8b6382d147453c3846d0f4c865",
+      "review_mode": "Rendered after PPTX export and reimport"
+    },
+    {
+      "path": "assets/native/04-D04-retrieval-cases.png",
+      "sha256": "dfb3e0e2a6f183e1a085de0bd98e3d1ff0008ac4a85d4097437116fd9096c4f3",
+      "review_mode": "Rendered after PPTX export and reimport"
+    },
+    {
+      "path": "assets/native/05-D05-capability.png",
+      "sha256": "9a32b02fd300e8477bd7928ebdce535b71af36bc4957190bc1a8c0cdbf9079a9",
+      "review_mode": "Rendered after PPTX export and reimport"
+    },
+    {
+      "path": "assets/native/06-T01-main.png",
+      "sha256": "bd3a93670e676ca8c7ecbd730a8907aaf32913da96538a9ccc8fe3f5c31e0143",
+      "review_mode": "Rendered after PPTX export and reimport"
+    },
+    {
+      "path": "assets/native/07-T02-ablation.png",
+      "sha256": "00164611002b82f3a2a962c9df8003eead5718c27194106a03dd20a588bde2ec",
+      "review_mode": "Rendered after PPTX export and reimport"
+    },
+    {
+      "path": "assets/native/08-T03-parameter.png",
+      "sha256": "6335cd26fbfa42c1cf79e04e528c6cab0f9c854656713aced3faaa511c65eb9e",
+      "review_mode": "Rendered after PPTX export and reimport"
+    },
+    {
+      "path": "assets/native/09-T04-efficiency.png",
+      "sha256": "f73234ec2bf974c020f2d17d340df79b224f70b2e987d3882c507ef840d3b086",
+      "review_mode": "Rendered after PPTX export and reimport"
+    },
+    {
+      "path": "assets/native/10-F12-native-chart.png",
+      "sha256": "11ba62f516f81e254fdf3f1b14a69ef08eec3ba66bfd2adba0e5e26f777cb331",
+      "review_mode": "Rendered after PPTX export and reimport"
+    },
+    {
+      "path": "assets/native/11-D06-compound.png",
+      "sha256": "312a1243e6cf2bfb1fc061110eeb357bd8717f700e3405d4894e391fbd68a720",
+      "review_mode": "Rendered after PPTX export and reimport"
+    },
+    {
+      "path": "assets/native/D01-comparison.svg",
+      "sha256": "1ab0d74b173d0f909d92e4aeebed757adaecb81e0d5f71cbfb41958a1d2a5dd8",
+      "review_mode": "Standalone SVG rasterized and inspected"
+    },
+    {
+      "path": "assets/native/D02-method.svg",
+      "sha256": "f1be3e91c8373f0f2022a19cc72954261b287edb086c4575a8ce0f72a8cbc155",
+      "review_mode": "Standalone SVG rasterized and inspected"
+    },
+    {
+      "path": "assets/native/D03-temporal.svg",
+      "sha256": "a4cb56daedc092db8e3860235efc8dcf1621e2f1fc3e5b20e061ba43b0784e15",
+      "review_mode": "Standalone SVG rasterized and inspected"
+    },
+    {
+      "path": "assets/native/D04-retrieval-cases.svg",
+      "sha256": "155c03cae289da65efb0c0012b3b15385c80e0199e1f431b9403fd585b506fa9",
+      "review_mode": "Standalone SVG rasterized and inspected"
+    },
+    {
+      "path": "assets/native/D05-capability.svg",
+      "sha256": "1b1ee60d0c4c0dd4bc8daab6b7fa4b581916e956faa4e776b00ceed573d6656c",
+      "review_mode": "Standalone SVG rasterized and inspected"
+    },
+    {
+      "path": "assets/native/D06-compound.svg",
+      "sha256": "c579244fcba2c14e163c8936fb280f050ef1dabaa4f482d3de19476ca00fe9cf",
+      "review_mode": "Standalone SVG rasterized and inspected"
+    }
+  ],
+  "limits": [
+    "PNG/PDF and native PPTX renders inspected; statistical SVGs additionally checked structurally.",
+    "PowerPoint GUI not tested.",
+    "Example content is synthetic."
+  ]
+}

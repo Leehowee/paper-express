@@ -1,0 +1,34 @@
+request_id: null
+claim_ids: []
+original_statement: null # 仅在修订命题时填写
+original_mathematical_status: null # 原命题的状态，不覆盖修订命题
+statement: null
+assumptions: []
+changes_from_request: []
+mathematical_status: candidate
+proof_or_counterexample: null
+lean_status: not_formalized
+lean_artifacts:
+  project: null
+  entry_theorems: []
+  lean_version: null
+  dependency_lock: null
+  commands: []
+  logs: []
+  source_hashes: {}
+  auxiliary_artifacts: [] # 与最终命题不等价的引理等：path, statement, lean_status, coverage
+proof_integrity:
+  status: not_audited
+  axioms_by_theorem: {}
+  placeholders: []
+  additional_assumptions: []
+  trust_extensions: []
+semantic_mapping:
+  status: not_reviewed
+  mappings: []
+  uncovered_objects: []
+application_obligations: []
+supported_claims: []
+unsupported_extensions: []
+implementation_applicability: null
+manuscript_text: null

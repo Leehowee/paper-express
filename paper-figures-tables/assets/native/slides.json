@@ -1,0 +1,46 @@
+[
+  {
+    "slide": 1,
+    "id": "D01-comparison"
+  },
+  {
+    "slide": 2,
+    "id": "D02-method"
+  },
+  {
+    "slide": 3,
+    "id": "D03-temporal"
+  },
+  {
+    "slide": 4,
+    "id": "D04-retrieval-cases"
+  },
+  {
+    "slide": 5,
+    "id": "D05-capability"
+  },
+  {
+    "slide": 6,
+    "id": "T01-main"
+  },
+  {
+    "slide": 7,
+    "id": "T02-ablation"
+  },
+  {
+    "slide": 8,
+    "id": "T03-parameter"
+  },
+  {
+    "slide": 9,
+    "id": "T04-efficiency"
+  },
+  {
+    "slide": 10,
+    "id": "F12-native-chart"
+  },
+  {
+    "slide": 11,
+    "id": "D06-compound"
+  }
+]

@@ -1,0 +1,19 @@
+% Requires \usepackage{booktabs}. Generated from raw runs; do not edit numbers here.
+\begin{table*}[t]
+\centering
+\caption{SYNTHETIC EXAMPLE. Mean $\pm$ sample SD of three independent synthetic runs per available cell. OOM denotes an explicitly failed run configuration. Extra supervision is a separate reference block. Bold: best displayed mean within each comparison block; ties at displayed precision are retained. This marking is not a significance test.}
+\label{tab:T01-main}
+\small
+\begin{tabular}{lcccc}
+\toprule
+Method / variant & Set A / ACC $\uparrow$ & Set A / NMI $\uparrow$ & Set B / ACC $\uparrow$ & Set B / NMI $\uparrow$ \\
+\midrule
+\multicolumn{5}{l}{\textit{Matched training and evaluation protocol}} \\
+Baseline A & 74.0 $\pm$ 0.3 & 62.0 $\pm$ 0.3 & OOM & OOM \\
+Baseline B & 77.0 $\pm$ 0.3 & 64.0 $\pm$ 0.3 & \textbf{79.0 $\pm$ 0.3} & \textbf{70.0 $\pm$ 0.3} \\
+Proposed & \textbf{79.0 $\pm$ 0.3} & \textbf{65.0 $\pm$ 0.3} & \textbf{79.0 $\pm$ 0.3} & 69.0 $\pm$ 0.3 \\
+\multicolumn{5}{l}{\textit{Extra supervision (reference only)}} \\
+Reference+ & 84.0 $\pm$ 0.3 & 72.0 $\pm$ 0.3 & 86.0 $\pm$ 0.3 & 75.0 $\pm$ 0.3 \\
+\bottomrule
+\end{tabular}
+\end{table*}

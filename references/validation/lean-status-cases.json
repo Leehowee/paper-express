@@ -1,0 +1,160 @@
+{
+  "checked_on": "2026-11-18",
+  "cases": [
+    {
+      "case": "clean",
+      "status": "checked",
+      "lean_status": "checked",
+      "build_status": "passed",
+      "proof_integrity_status": "clear_for_audited_entries",
+      "problems": [],
+      "commands": [
+        {
+          "label": "lake-version",
+          "exit_code": 0
+        },
+        {
+          "label": "lean-version",
+          "exit_code": 0
+        },
+        {
+          "label": "build",
+          "exit_code": 0
+        },
+        {
+          "label": "axioms",
+          "exit_code": 0
+        }
+      ],
+      "report_path_from_workspace": "tmp/final-skills-eval/lean-clean/verification.json",
+      "report_sha256": "4a428fa1e4b1c3fa51d00eeba8905d4de75875ad670116eab154f07ed739ec46"
+    },
+    {
+      "case": "placeholder",
+      "status": "not_cleared",
+      "lean_status": "check_failed",
+      "build_status": "passed",
+      "proof_integrity_status": "requires_review",
+      "problems": [
+        "Additional axiom dependencies for visible",
+        "Source markers require review; no clean validation reported"
+      ],
+      "commands": [
+        {
+          "label": "lake-version",
+          "exit_code": 0
+        },
+        {
+          "label": "lean-version",
+          "exit_code": 0
+        },
+        {
+          "label": "build",
+          "exit_code": 0
+        },
+        {
+          "label": "axioms",
+          "exit_code": 0
+        }
+      ],
+      "report_path_from_workspace": "tmp/final-skills-eval/lean-placeholder/verification.json",
+      "report_sha256": "60d52b174f87fba15ae9f09e25ec30b6e63d8cd37d0a135c8514fce8e50db97f"
+    },
+    {
+      "case": "extra_axiom",
+      "status": "not_cleared",
+      "lean_status": "check_failed",
+      "build_status": "passed",
+      "proof_integrity_status": "requires_review",
+      "problems": [
+        "Additional axiom dependencies for visible",
+        "Source markers require review; no clean validation reported"
+      ],
+      "commands": [
+        {
+          "label": "lake-version",
+          "exit_code": 0
+        },
+        {
+          "label": "lean-version",
+          "exit_code": 0
+        },
+        {
+          "label": "build",
+          "exit_code": 0
+        },
+        {
+          "label": "axioms",
+          "exit_code": 0
+        }
+      ],
+      "report_path_from_workspace": "tmp/final-skills-eval/lean-extra_axiom/verification.json",
+      "report_sha256": "1ef05994193584df3010fc5c4cb098d585bcd7c312e39f4c8c8af9cd95f0e6d8"
+    },
+    {
+      "case": "missing_audit",
+      "status": "not_cleared",
+      "lean_status": "source_unrun",
+      "build_status": "not_run",
+      "proof_integrity_status": "not_audited",
+      "problems": [
+        "No explicit #print axioms entries found"
+      ],
+      "commands": [],
+      "report_path_from_workspace": "tmp/final-skills-eval/lean-missing_audit/verification.json",
+      "report_sha256": "186cc029713da5d86a155e466d6a16694279cbeb5ca33e01dd8481757c2a3105"
+    },
+    {
+      "case": "no-runtime",
+      "status": "not_cleared",
+      "lean_status": "source_unrun",
+      "build_status": "not_run",
+      "proof_integrity_status": "not_audited",
+      "problems": [
+        "Lake executable not found",
+        "Missing successful axiom output for PaperTheory.minimizer_transfer",
+        "Missing successful axiom output for PaperTheory.two_block_descent",
+        "Missing successful axiom output for PaperTheory.run_feasible",
+        "Missing successful axiom output for PaperTheory.run_descent",
+        "Missing successful axiom output for PaperTheory.approximate_optimum_transfer",
+        "Missing successful axiom output for PaperTheory.convex_attained_envelope",
+        "Missing successful axiom output for PaperTheory.quadratic_step_descent",
+        "Missing successful axiom output for PaperTheory.quadratic_run_descent",
+        "Missing successful axiom output for PaperTheory.constant_has_two_minimizers",
+        "Missing successful axiom output for PaperTheory.twoWell_not_convex",
+        "Missing successful axiom output for PaperTheory.squared_one_sided_max_bound_fails"
+      ],
+      "commands": [],
+      "report_path_from_workspace": "tmp/final-skills-eval/lean-no-runtime/verification.json",
+      "report_sha256": "000ad36d5efaaf9c6ef2e70612bbcbf05ca5a83bc2212754ef3788b83da9bb25"
+    },
+    {
+      "case": "build-error",
+      "status": "not_cleared",
+      "lean_status": "check_failed",
+      "build_status": "failed",
+      "proof_integrity_status": "not_audited",
+      "problems": [
+        "build failed; inspect build.log",
+        "Missing successful axiom output for visible"
+      ],
+      "commands": [
+        {
+          "label": "lake-version",
+          "exit_code": 0
+        },
+        {
+          "label": "lean-version",
+          "exit_code": 0
+        },
+        {
+          "label": "build",
+          "exit_code": 1
+        }
+      ],
+      "report_path_from_workspace": "tmp/final-skills-eval/lean-build-error/verification.json",
+      "report_sha256": "f2d89c0cda79aad64009a30920fdde7d94fdaef7b6a5b3aad676e1d71e9ef848"
+    }
+  ],
+  "all_expected_states_observed": true
+}

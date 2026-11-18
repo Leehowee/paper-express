@@ -1,0 +1,17 @@
+panel,x,y,value,status
+grid,0.001,0.1,76.4,ok
+grid,0.01,0.1,78.4,ok
+grid,0.1,0.1,80.4,ok
+grid,1,0.1,78.4,ok
+grid,0.001,0.3,78.0,ok
+grid,0.01,0.3,80.0,ok
+grid,0.1,0.3,82.0,ok
+grid,1,0.3,80.0,ok
+grid,0.001,0.5,76.4,ok
+grid,0.01,0.5,78.4,ok
+grid,0.1,0.5,80.4,ok
+grid,1,0.5,78.4,ok
+grid,0.001,0.7,,error
+grid,0.01,0.7,76.8,ok
+grid,0.1,0.7,78.8,ok
+grid,1,0.7,76.8,ok

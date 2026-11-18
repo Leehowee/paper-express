@@ -1,0 +1,48 @@
+{
+  "archive": "figures4papers-main.zip",
+  "sha256": "ee10ff8e817cb06a49fb411ff02457c63a4d12fe828cfc623caccf126b32eff0",
+  "upstream": "https://github.com/ChenLiu-1996/figures4papers",
+  "license": "CC BY-NC 4.0",
+  "members_reviewed": [
+    {
+      "path": "figures4papers-main/LICENSE",
+      "sha256": "0afca3145596cd005f6f6ed977313ea31928094fc5b4aaabc21bb765ea369d09"
+    },
+    {
+      "path": "figures4papers-main/README.md",
+      "sha256": "57d2224901a6c98e9601f4ca3c3f865e1c9898bead83516b18ec08caa63a3a1b"
+    },
+    {
+      "path": "figures4papers-main/scientific-figure-making/SKILL.md",
+      "sha256": "952300b4d0bd8fbd0c55aaa732a47a0abb8e9707bc80965c8e70221ef13f0292"
+    },
+    {
+      "path": "figures4papers-main/scientific-figure-making/references/api.md",
+      "sha256": "12892f4940c153c8b2e75abe8eed8f96476989b0a75d65f0dc3d08118bf58269"
+    },
+    {
+      "path": "figures4papers-main/scientific-figure-making/references/design-theory.md",
+      "sha256": "d34fa995a481588a33aab301591a9a2ae54dae8df34c74e0a13311582ef48d99"
+    },
+    {
+      "path": "figures4papers-main/scientific-figure-making/references/common-patterns.md",
+      "sha256": "1456736819f17c5a8bef0daaa58107355dd3212e1594afae5fb49279af2d6d67"
+    },
+    {
+      "path": "figures4papers-main/figure_VIGIL/plot_ablation.py",
+      "sha256": "b3c28343cfbb2f16e3e9c60735269d68098bcc7d16d5402f362354466fa272d7"
+    },
+    {
+      "path": "figures4papers-main/figure_ImmunoStruct/plot_bars.py",
+      "sha256": "1d028144e620d1cfac66ea5ab57004dfa286d80214480c76d046d9f346fda408"
+    },
+    {
+      "path": "figures4papers-main/figure_RNAGenScape/plot_comparison_speed.py",
+      "sha256": "81508186c522c31c78fd185f284277f15506f4abbc75fe1c70cafc127184cd72"
+    },
+    {
+      "path": "figures4papers-main/figure_ophthal_review/plot_composition.py",
+      "sha256": "8fb5469cc22f13a68a71ab462abd876856b30c93d1f616fe1bd3569da5aee427"
+    }
+  ]
+}

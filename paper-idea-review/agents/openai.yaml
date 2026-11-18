@@ -1,0 +1,4 @@
+interface:
+  display_name: "Idea 与科学问题审查"
+  short_description: "按不同研究起点审查创新性、重要性与可行性，形成可检验的问题与改进方案"
+  default_prompt: "使用 $paper-idea-review 审查我的科研想法，选择适合的研究路径，明确创新差异、核心问题、关键对照和最小验证方案。"

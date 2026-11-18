@@ -1,0 +1,41 @@
+{
+  "id": "F10-convergence",
+  "kind": "curves",
+  "data": "../data/F10-convergence.csv",
+  "synthetic": true,
+  "provenance": "Deterministic teaching data from scripts/make_examples.py; not a paper reproduction or research result.",
+  "width_mm": 180,
+  "height_mm": 75,
+  "font_pt": 8,
+  "dpi": 300,
+  "formats": [
+    "svg",
+    "pdf",
+    "png"
+  ],
+  "uncertainty": "sd",
+  "panels": [
+    {
+      "id": "objective",
+      "series": [
+        "Solver A",
+        "Solver B"
+      ],
+      "xlabel": "Iteration",
+      "ylabel": "Objective value ↓",
+      "phase": 10
+    },
+    {
+      "id": "score",
+      "series": [
+        "Solver A",
+        "Solver B"
+      ],
+      "xlabel": "Iteration",
+      "ylabel": "Task accuracy (%) ↑",
+      "phase": 10
+    }
+  ],
+  "title": "Optimization progress and task performance",
+  "independent_unit": "Independent initialization"
+}

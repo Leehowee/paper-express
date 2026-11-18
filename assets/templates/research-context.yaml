@@ -1,0 +1,22 @@
+# 可选的跨模块记录；小任务直接在正文中传递，不要求填满所有项。
+request_id: null
+manuscript_version: null
+research_question: null
+scope_and_assumptions: []
+target:
+  venue: null
+  year: null
+  article_type: null
+  verified_rules: []
+claims: [] # id, statement, role(hypothesis/manuscript_claim), conditions, evidence_ids, assessment_status
+evidence: [] # id, kind, source_path, version, location, checked_scope, limitations
+theory_results: [] # claim_ids, statement, mathematical_status, lean_artifacts与各自状态, semantic_mapping
+figure_results: [] # claim_ids, stable_label, artifacts, status, checks, data_sources
+review_issues: [] # issue_id, claim_ids, severity, action, closure_test, status
+current_task:
+  module: null
+  requested_output: null
+  inputs: []
+  affected_locations: []
+unresolved_items: []
+changes: [] # 原主张/版本、修改后主张/版本、变化依据、受影响位置

@@ -1,0 +1,4 @@
+interface:
+  display_name: "数学理论：假设、命题与 Lean"
+  short_description: "从方法主张建立假设与证明，生成并核查 Lean 形式化，返回可用于 Methods 的理论文字"
+  default_prompt: "使用 $paper-theory，根据我的方法或候选命题审查假设、完成证明或反例，并生成 Lean 形式化与可用于论文的理论说明。"

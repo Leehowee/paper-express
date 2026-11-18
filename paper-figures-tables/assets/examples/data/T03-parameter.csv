@@ -1,0 +1,16 @@
+group,method,dataset,metric,run,value,status
+search,Setting 1,Validation,ACC,1,70.7,ok
+search,Setting 1,Validation,ACC,2,71,ok
+search,Setting 1,Validation,ACC,3,71.3,ok
+search,Setting 2,Validation,ACC,1,76.7,ok
+search,Setting 2,Validation,ACC,2,77,ok
+search,Setting 2,Validation,ACC,3,77.3,ok
+search,Setting 3,Validation,ACC,1,80.7,ok
+search,Setting 3,Validation,ACC,2,81,ok
+search,Setting 3,Validation,ACC,3,81.3,ok
+search,Setting 4,Validation,ACC,1,79.7,ok
+search,Setting 4,Validation,ACC,2,80,ok
+search,Setting 4,Validation,ACC,3,80.3,ok
+search,Setting 5,Validation,ACC,1,75.7,ok
+search,Setting 5,Validation,ACC,2,76,ok
+search,Setting 5,Validation,ACC,3,76.3,ok

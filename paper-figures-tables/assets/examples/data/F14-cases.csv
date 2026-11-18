@@ -1,0 +1,9 @@
+case_id,method,path,outcome,roi_x,roi_y,roi_w,roi_h
+C01,Input,../images/C01-Input.png,improvement,50,40,45,42
+C01,Baseline,../images/C01-Baseline.png,improvement,50,40,45,42
+C01,Proposed,../images/C01-Proposed.png,improvement,50,40,45,42
+C01,Reference,../images/C01-Reference.png,improvement,50,40,45,42
+C02,Input,../images/C02-Input.png,failure,50,40,45,42
+C02,Baseline,../images/C02-Baseline.png,failure,50,40,45,42
+C02,Proposed,../images/C02-Proposed.png,failure,50,40,45,42
+C02,Reference,../images/C02-Reference.png,failure,50,40,45,42

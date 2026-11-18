@@ -1,0 +1,28 @@
+{
+  "id": "F05-distribution",
+  "kind": "distribution",
+  "data": "../data/F05-distribution.csv",
+  "synthetic": true,
+  "provenance": "Deterministic teaching data from scripts/make_examples.py; not a paper reproduction or research result.",
+  "width_mm": 180,
+  "height_mm": 75,
+  "font_pt": 8,
+  "dpi": 300,
+  "formats": [
+    "svg",
+    "pdf",
+    "png"
+  ],
+  "uncertainty": "none",
+  "series": [
+    "Clean",
+    "Corrupted"
+  ],
+  "range": [
+    0,
+    1
+  ],
+  "bins": 16,
+  "xlabel": "Reliability score",
+  "title": "Diagnostic distributions"
+}

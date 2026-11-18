@@ -1,0 +1,34 @@
+{
+  "id": "F12-weights",
+  "kind": "weights",
+  "synthetic": true,
+  "size_mm": [
+    110,
+    78
+  ],
+  "uncertainty": "none",
+  "independent_unit": null,
+  "source_path_base": "audit_directory",
+  "source_path_policy": "relative where possible; absolute across drives",
+  "source_sha256": {
+    "../examples/configs/F12-weights.json": "cf705db539f07b7cb4bb08fca8ccff5627eaf76c1199061690c77e4300450bc7",
+    "../examples/data/F12-weights.csv": "f3bf26ecee607f2503854cfa7724cc008d3be49f47555ff160dd839df4a1b9be"
+  },
+  "outputs": [
+    "F12-weights.svg",
+    "F12-weights.pdf",
+    "F12-weights.png"
+  ],
+  "summary": {
+    "normalization": "sum to 1"
+  },
+  "visual_review": "required",
+  "generator_sha256": {
+    "figurekit.py": "911e94302c95a44917dc01877d0e7fbe21c30196435588a945d9a111a5eef544"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  }
+}

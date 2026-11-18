@@ -1,0 +1,90 @@
+{
+  "id": "F06-alignment",
+  "kind": "heatmap",
+  "data": "../data/F06-alignment.csv",
+  "synthetic": true,
+  "provenance": "Deterministic teaching data from scripts/make_examples.py; not a paper reproduction or research result.",
+  "width_mm": 180,
+  "height_mm": 70,
+  "font_pt": 8,
+  "dpi": 300,
+  "formats": [
+    "svg",
+    "pdf",
+    "png"
+  ],
+  "uncertainty": "none",
+  "panels": [
+    {
+      "id": "Initial",
+      "title": "Initial",
+      "x_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "y_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "xlabel": "View B sample",
+      "ylabel": "View A sample"
+    },
+    {
+      "id": "Refined",
+      "title": "Refined",
+      "x_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "y_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "xlabel": "View B sample",
+      "ylabel": "View A sample"
+    },
+    {
+      "id": "Reference",
+      "title": "Reference",
+      "x_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "y_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "xlabel": "View B sample",
+      "ylabel": "View A sample"
+    }
+  ],
+  "vmin": 0,
+  "vmax": 1,
+  "colorbar": "Similarity",
+  "annotate": false,
+  "title": "Matched matrix ordering and a shared colour scale"
+}

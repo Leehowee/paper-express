@@ -1,0 +1,127 @@
+{
+  "compiled_on": "2026-11-18",
+  "upstream_archive": {
+    "name": "nature-skills-main.zip",
+    "sha256": "2bcef6b8444ede45a8e48deda96073a9b55b214efecef76d23939b6df755e406",
+    "notice_members": [],
+    "license_member": "nature-skills-main/LICENSE"
+  },
+  "scope": "第五部分技能组织、通用审查模板与既有阅读记录迁移；未新增22篇PDF全文精读、真实实验复现或Lean执行。",
+  "entries": [
+    {
+      "kind": "local_zip_member",
+      "source": "nature-skills-main.zip",
+      "member": "nature-skills-main/skills/nature-reviewer/SKILL.md",
+      "sha256": "8ca28cc8e8bda2b5254056940d2a696dc0d3cabcd5573cdec98ffc3cbd162610",
+      "reading_scope": "入口结构与主要流程；用于改编，不作为当前任务执行模式"
+    },
+    {
+      "kind": "local_zip_member",
+      "source": "nature-skills-main.zip",
+      "member": "nature-skills-main/skills/nature-reviewer/manifest.yaml",
+      "sha256": "ae72a3851c25db11ddb8ce57791d197a849c25c1a60ce0b240a43c486bc037ff",
+      "reading_scope": "路由与模板组织"
+    },
+    {
+      "kind": "local_zip_member",
+      "source": "nature-skills-main.zip",
+      "member": "nature-skills-main/skills/nature-reviewer/references/source-basis.md",
+      "sha256": "ff9626c18ac49b69ddf37db41a67bca0f4e671f3109952a5358650706bd55c48",
+      "reading_scope": "全文"
+    },
+    {
+      "kind": "local_zip_member",
+      "source": "nature-skills-main.zip",
+      "member": "nature-skills-main/skills/nature-reviewer/references/review-axes.md",
+      "sha256": "88eb4fec5afe162238dd380bedcba052e6f5fce2b9a67afd94b3fd483efc941f",
+      "reading_scope": "全文"
+    },
+    {
+      "kind": "local_zip_member",
+      "source": "nature-skills-main.zip",
+      "member": "nature-skills-main/skills/nature-reviewer/references/technical-concern-taxonomy.md",
+      "sha256": "3a4259499f3820f9a643d08eec24f3e27eefe80736d46793fa2db603fe3f8566",
+      "reading_scope": "全文"
+    },
+    {
+      "kind": "local_zip_member",
+      "source": "nature-skills-main.zip",
+      "member": "nature-skills-main/skills/nature-reviewer/references/qa-checklist.md",
+      "sha256": "37d7e487e6a982c0b6e9587c7d8c0acebbf435c8bd721773a125c62873a45baa",
+      "reading_scope": "全文"
+    },
+    {
+      "kind": "local_zip_member",
+      "source": "nature-skills-main.zip",
+      "member": "nature-skills-main/skills/nature-reviewer/references/forensic-consistency-audit.md",
+      "sha256": "6555c0b85d81cf4f32d5607c95485bfa4ce48ab3a95827dd7a4aeb83d7771319",
+      "reading_scope": "数值、聚合、来源、重复与审计状态相关章节"
+    },
+    {
+      "kind": "local_zip_member",
+      "source": "nature-skills-main.zip",
+      "member": "nature-skills-main/skills/nature-shared/core/consistency-sweep.md",
+      "sha256": "35a540c10a2c14415b7181588f612e16943cbc4e49f1428010d67c480051f0f9",
+      "reading_scope": "全文；统计简写经过修正，不直接继承"
+    },
+    {
+      "kind": "existing_project_record",
+      "path_from_workspace": "paper-skills/paper-figures-tables/references/source-index.md",
+      "sha256": "6e5cc26962772a34cd30b8f4968e21e285730f3ca851f9afc278b2f792c4ef95",
+      "reading_scope": "来源编号、阅读范围与页码",
+      "not_new_pdf_reading": true
+    },
+    {
+      "kind": "existing_project_record",
+      "path_from_workspace": "paper-skills/paper-figures-tables/references/gaohuang-analysis.md",
+      "sha256": "d0e62bef4bc838712232e35d8a6ccdc5668eacba44f3bb8881b7c0b1dd413a59",
+      "reading_scope": "GH03、GH05 等相关观察",
+      "not_new_pdf_reading": true
+    },
+    {
+      "kind": "existing_project_record",
+      "path_from_workspace": "paper-skills/paper-figures-tables/references/xipeng-analysis.md",
+      "sha256": "44428791b5ad0248db8b37582237c1bc91b9567369dbc67c1b294d5143dcbe5a",
+      "reading_scope": "XP02、XP06、XP07 等相关观察",
+      "not_new_pdf_reading": true
+    },
+    {
+      "kind": "existing_project_record",
+      "path_from_workspace": "paper-skills/paper-figures-tables/references/xinwangliu-analysis.md",
+      "sha256": "3fdee9af0e721d52a196bab4dff956215e6059cedd9506665daf29b06f087214",
+      "reading_scope": "XL02、XL03、XL07、XL08、XL09 等相关观察",
+      "not_new_pdf_reading": true
+    },
+    {
+      "kind": "existing_project_record",
+      "path_from_workspace": "paper-skills/paper-theory/references/source-index.md",
+      "sha256": "c033aea57a05171bb1078fdd55267ec3610edf68c2d7b0738df9f8bfc6a44340",
+      "reading_scope": "理论阅读范围与限制",
+      "not_new_pdf_reading": true
+    },
+    {
+      "kind": "existing_project_record",
+      "path_from_workspace": "paper-skills/paper-theory/interfaces/methods.md",
+      "sha256": "0dfff2e6714bbba467da9d8dcdf5fae173716c623ae28308550026747cde58ce",
+      "reading_scope": "理论与 Lean 状态及语义映射接口",
+      "not_new_pdf_reading": true,
+      "initial_reading_sha256": "a59d64c32bf033431951925ff63a05daea3c7aa1b7ba8689380be877ce33c72e",
+      "revision_note": "最终修订更新了接口或交接说明；保留首次阅读散列，论文原始材料未改变。"
+    },
+    {
+      "kind": "host_skill_consulted",
+      "name": "skill-creator",
+      "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+      "reading_scope": "入口全文；宿主文件不是最终模块运行依赖"
+    },
+    {
+      "kind": "host_skill_consulted",
+      "name": "nature-reviewer-host",
+      "sha256": "88aab215096a1883b56a36e087fa8c2f64b39087461f1e69dbfcf5700ae80c19",
+      "reading_scope": "入口全文；宿主文件不是最终模块运行依赖"
+    }
+  ],
+  "web_source_record": "source-basis.md",
+  "validation_record": "validation.md",
+  "last_revised_on": "2026-11-18"
+}

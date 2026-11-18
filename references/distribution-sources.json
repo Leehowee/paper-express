@@ -1,0 +1,275 @@
+{
+  "note": "Optional source papers/archives are not distributed. Source labels and page references remain in the reading notes.",
+  "sources": [
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "GaoHuang/2105.03245v2.pdf",
+      "label": "Adaptive Focus for Efficient Video Recognition"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "GaoHuang/2509.15333v1.pdf",
+      "label": "Emulating Human-like Adaptive Vision for Efficient and Flexible Machine Visual Perception"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "GaoHuang/ICLR-2025-differential-transformer-Paper-Conference.pdf",
+      "label": "Differential Transformer"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "GaoHuang/JustGRPO.pdf",
+      "label": "The Flexibility Trap: Rethinking the Value of Arbitrary Order in Diffusion Language Models"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "GaoHuang/NeurIPS-2025-does-reinforcement-learning-really-incentivize-reasoning-capacity-in-llms-beyond-the-base-model-Paper-Conference.pdf",
+      "label": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "GaoHuang/s41467-025-62865-w.pdf",
+      "label": "Towards expert-level autonomous carotid ultrasonography with large-scale learning-based robotic system"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "XiPeng/2020-NeurIPS-Partially-View-aligned-Clustering.pdf",
+      "label": "Partially View-aligned Clustering"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "XiPeng/2021-NeurIPS-Learning-with-Noisy-Correspondence-for-Cross-modal-Matching.pdf",
+      "label": "Learning with Noisy Correspondence for Cross-modal Matching"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "XiPeng/2025-NeurIPS-Conditional-Representation-Learning-for-Customized-Tasks.pdf",
+      "label": "Conditional Representation Learning for Customized Tasks"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "XiPeng/gou24a.pdf",
+      "label": "Test-Time Degradation Adaptation for Open-Set Image Restoration"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "XiPeng/ICLR-2024-multi-granularity-correspondence-learning-from-long-term-noisy-videos-Paper-Conference.pdf",
+      "label": "Multi-Granularity Correspondence Learning from Long-Term Noisy Videos"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "XiPeng/ICLR-2026-learning-with-dual-level-noisy-correspondence-for-multi-modal-entity-alignment-Paper-Conference.pdf",
+      "label": "Learning with Dual-Level Noisy Correspondence for Multi-Modal Entity Alignment"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "XiPeng/ICLR-2026-uncover-underlying-correspondence-for-robust-multi-view-clustering-Paper-Conference.pdf",
+      "label": "Uncover Underlying Correspondence for Robust Multi-View Clustering"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/1_4_XinwangLiu_TPAMI21.pdf",
+      "label": "Efficient and Effective Regularized Incomplete Multi-View Clustering"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/2_2_XinwangLiu_TPAMI20.pdf",
+      "label": "Multiple Kernel k-Means with Incomplete Kernels"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/2_3_XinwangLiu_TPAMI20.pdf",
+      "label": "Absent Multiple Kernel Learning Algorithms"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/CeFMC_early_access.pdf",
+      "label": "Communication-Efficient Federated Multi-view Clustering"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/Contrastive_Multi-view_Kernel_Learning.pdf",
+      "label": "Contrastive Multi-View Kernel Learning"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/Hyperparameter-Free_Localized_Simple_Multiple_Kernel_K-means_With_Global_Optimum.pdf",
+      "label": "Hyperparameter-Free Localized Simple Multiple Kernel K-means With Global Optimum"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/Liang-Li-IEEE-TPAMI-2025.pdf",
+      "label": "Generalized Probabilistic Graphical Modeling for Multi-View Bipartite Graph Clustering"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/SimpleMKKM.pdf",
+      "label": "SimpleMKKM: Simple Multiple Kernel K-means"
+    },
+    {
+      "document": "paper-figures-tables/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/TPAMI_IncomSimpleMKKM.pdf",
+      "label": "Incomplete Multiple Kernel Alignment Maximization for Clustering"
+    },
+    {
+      "document": "paper-idea-review/references/source-index.md",
+      "source": "GaoHuang/s41467-025-62865-w.pdf",
+      "label": "s41467-025-62865-w.pdf"
+    },
+    {
+      "document": "paper-idea-review/references/source-index.md",
+      "source": "GaoHuang/2509.15333v1.pdf",
+      "label": "2509.15333v1.pdf"
+    },
+    {
+      "document": "paper-idea-review/references/source-index.md",
+      "source": "GaoHuang/NeurIPS-2025-does-reinforcement-learning-really-incentivize-reasoning-capacity-in-llms-beyond-the-base-model-Paper-Conference.pdf",
+      "label": "会议论文 PDF"
+    },
+    {
+      "document": "paper-idea-review/references/source-index.md",
+      "source": "GaoHuang/ICLR-2025-differential-transformer-Paper-Conference.pdf",
+      "label": "本地 PDF"
+    },
+    {
+      "document": "paper-idea-review/references/source-index.md",
+      "source": "GaoHuang/2105.03245v2.pdf",
+      "label": "本地 PDF"
+    },
+    {
+      "document": "paper-idea-review/references/source-index.md",
+      "source": "GaoHuang/JustGRPO.pdf",
+      "label": "JustGRPO.pdf"
+    },
+    {
+      "document": "paper-theory/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/SimpleMKKM.pdf",
+      "label": "SimpleMKKM: Simple Multiple Kernel K-means"
+    },
+    {
+      "document": "paper-theory/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/Hyperparameter-Free_Localized_Simple_Multiple_Kernel_K-means_With_Global_Optimum.pdf",
+      "label": "Hyperparameter-Free Localized Simple Multiple Kernel K-means With Global Optimum"
+    },
+    {
+      "document": "paper-theory/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/TPAMI_IncomSimpleMKKM.pdf",
+      "label": "Incomplete Multiple Kernel Alignment Maximization for Clustering"
+    },
+    {
+      "document": "paper-theory/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/1_4_XinwangLiu_TPAMI21.pdf",
+      "label": "Efficient and Effective Regularized Incomplete Multi-view Clustering"
+    },
+    {
+      "document": "paper-theory/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/2_2_XinwangLiu_TPAMI20.pdf",
+      "label": "Multiple Kernel k-Means with Incomplete Kernels"
+    },
+    {
+      "document": "paper-theory/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/2_3_XinwangLiu_TPAMI20.pdf",
+      "label": "Absent Multiple Kernel Learning Algorithms"
+    },
+    {
+      "document": "paper-theory/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/CeFMC_early_access.pdf",
+      "label": "Communication-Efficient Federated Multi-view Clustering"
+    },
+    {
+      "document": "paper-theory/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/Contrastive_Multi-view_Kernel_Learning.pdf",
+      "label": "Contrastive Multi-view Kernel Learning"
+    },
+    {
+      "document": "paper-theory/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/Liang-Li-IEEE-TPAMI-2025.pdf",
+      "label": "Generalized Probabilistic Graphical Modeling for Multi-View Bipartite Graph Clustering"
+    },
+    {
+      "document": "paper-writing/references/nature-adaptation.md",
+      "source": "nature-skills-main.zip",
+      "label": "nature-skills-main.zip"
+    },
+    {
+      "document": "paper-writing/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/1_4_XinwangLiu_TPAMI21.pdf",
+      "label": "Efficient and Effective Regularized Incomplete Multi-View Clustering"
+    },
+    {
+      "document": "paper-writing/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/2_2_XinwangLiu_TPAMI20.pdf",
+      "label": "Multiple Kernel k-Means with Incomplete Kernels"
+    },
+    {
+      "document": "paper-writing/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/2_3_XinwangLiu_TPAMI20.pdf",
+      "label": "Absent Multiple Kernel Learning Algorithms"
+    },
+    {
+      "document": "paper-writing/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/CeFMC_early_access.pdf",
+      "label": "Communication-Efficient Federated Multi-view Clustering"
+    },
+    {
+      "document": "paper-writing/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/Contrastive_Multi-view_Kernel_Learning.pdf",
+      "label": "Contrastive Multi-View Kernel Learning"
+    },
+    {
+      "document": "paper-writing/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/Hyperparameter-Free_Localized_Simple_Multiple_Kernel_K-means_With_Global_Optimum.pdf",
+      "label": "Hyperparameter-Free Localized Simple Multiple Kernel K-means With Global Optimum"
+    },
+    {
+      "document": "paper-writing/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/Liang-Li-IEEE-TPAMI-2025.pdf",
+      "label": "Generalized Probabilistic Graphical Modeling for Multi-View Bipartite Graph Clustering"
+    },
+    {
+      "document": "paper-writing/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/SimpleMKKM.pdf",
+      "label": "SimpleMKKM: Simple Multiple Kernel K-means"
+    },
+    {
+      "document": "paper-writing/references/source-index.md",
+      "source": "XinwangLiu/TPAMI/TPAMI_IncomSimpleMKKM.pdf",
+      "label": "Incomplete Multiple Kernel Alignment Maximization for Clustering"
+    },
+    {
+      "document": "paper-writing/references/source-index.md",
+      "source": "XiPeng/2020-NeurIPS-Partially-View-aligned-Clustering.pdf",
+      "label": "Partially View-aligned Clustering"
+    },
+    {
+      "document": "paper-writing/references/source-index.md",
+      "source": "XiPeng/2021-NeurIPS-Learning-with-Noisy-Correspondence-for-Cross-modal-Matching.pdf",
+      "label": "Learning with Noisy Correspondence for Cross-modal Matching"
+    },
+    {
+      "document": "paper-writing/references/source-index.md",
+      "source": "XiPeng/2025-NeurIPS-Conditional-Representation-Learning-for-Customized-Tasks.pdf",
+      "label": "Conditional Representation Learning for Customized Tasks"
+    },
+    {
+      "document": "paper-writing/references/source-index.md",
+      "source": "XiPeng/gou24a.pdf",
+      "label": "Test-Time Degradation Adaptation for Open-Set Image Restoration"
+    },
+    {
+      "document": "paper-writing/references/source-index.md",
+      "source": "XiPeng/ICLR-2024-multi-granularity-correspondence-learning-from-long-term-noisy-videos-Paper-Conference.pdf",
+      "label": "Multi-Granularity Correspondence Learning from Long-Term Noisy Videos"
+    },
+    {
+      "document": "paper-writing/references/source-index.md",
+      "source": "XiPeng/ICLR-2026-learning-with-dual-level-noisy-correspondence-for-multi-modal-entity-alignment-Paper-Conference.pdf",
+      "label": "Learning with Dual-Level Noisy Correspondence for Multi-Modal Entity Alignment"
+    },
+    {
+      "document": "paper-writing/references/source-index.md",
+      "source": "XiPeng/ICLR-2026-uncover-underlying-correspondence-for-robust-multi-view-clustering-Paper-Conference.pdf",
+      "label": "Uncover Underlying Correspondence for Robust Multi-View Clustering"
+    }
+  ]
+}

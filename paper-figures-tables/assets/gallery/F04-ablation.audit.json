@@ -1,0 +1,57 @@
+{
+  "id": "F04-ablation",
+  "kind": "ablation",
+  "synthetic": true,
+  "size_mm": [
+    180,
+    80
+  ],
+  "uncertainty": "sd",
+  "independent_unit": "Matched independent seed",
+  "source_path_base": "audit_directory",
+  "source_path_policy": "relative where possible; absolute across drives",
+  "source_sha256": {
+    "../examples/configs/F04-ablation.json": "3aea4a9b0f2e397947e1ee0c0c47ba98fb052a59593a8d657c6bc55930087589",
+    "../examples/data/F04-ablation.csv": "3cf373cd8bb65a45c53d6e0844ad2983ee0fb449a598a59ca8bd63387137a28f"
+  },
+  "outputs": [
+    "F04-ablation.svg",
+    "F04-ablation.pdf",
+    "F04-ablation.png"
+  ],
+  "summary": {
+    "Full": {
+      "mean": 81.0,
+      "delta_full_minus_variant": 0.0,
+      "paired_sd": 0.0,
+      "n": 3
+    },
+    "No reliability": {
+      "mean": 76.0,
+      "delta_full_minus_variant": 5.0,
+      "paired_sd": 0.15000000000000568,
+      "n": 3
+    },
+    "No adaptation": {
+      "mean": 78.0,
+      "delta_full_minus_variant": 3.0,
+      "paired_sd": 0.29999999999999716,
+      "n": 3
+    },
+    "Frozen update": {
+      "mean": 82.0,
+      "delta_full_minus_variant": -1.0,
+      "paired_sd": 0.45000000000000284,
+      "n": 3
+    }
+  },
+  "visual_review": "required",
+  "generator_sha256": {
+    "figurekit.py": "911e94302c95a44917dc01877d0e7fbe21c30196435588a945d9a111a5eef544"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "科研图表与模板"
+  short_description: "从科研主张和真实数据生成论文图表、图注及可编辑 PPTX/SVG 模板"
+  default_prompt: "使用 $paper-figures-tables，根据我提供的数据或方法描述选择图表套路，直接生成图表、图注、可编辑源文件与核查记录。"

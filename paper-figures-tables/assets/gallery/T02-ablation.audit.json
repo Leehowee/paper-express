@@ -1,0 +1,51 @@
+{
+  "id": "T02-ablation",
+  "kind": "table",
+  "synthetic": true,
+  "size_mm": [
+    180,
+    85
+  ],
+  "uncertainty": "sd",
+  "independent_unit": "Independent synthetic seed/run",
+  "source_path_base": "audit_directory",
+  "source_path_policy": "relative where possible; absolute across drives",
+  "source_sha256": {
+    "../examples/configs/T02-ablation.json": "c48b68d757bee801fe273bf78466fdbaabf007099217324d37961bb756ff928e",
+    "../examples/data/T02-ablation.csv": "814e688ce64908906de6274a45172aa75a04b4f546ceaf4bdb57ba7e16e1e67a"
+  },
+  "outputs": [
+    "T02-ablation.svg",
+    "T02-ablation.pdf",
+    "T02-ablation.png"
+  ],
+  "summary": {
+    "n_per_cell": {
+      "controlled|Frozen update|Matched task|ACC": 3,
+      "controlled|No reliability|Matched task|NMI": 3,
+      "controlled|Full|Matched task|NMI": 3,
+      "controlled|Full|Matched task|ACC": 3,
+      "controlled|No reliability|Matched task|ACC": 3,
+      "controlled|No adaptation|Matched task|NMI": 3,
+      "controlled|Frozen update|Matched task|NMI": 3,
+      "controlled|No adaptation|Matched task|ACC": 3
+    },
+    "rank_policy": "display precision within comparison block; not significance",
+    "table_files": [
+      "T02-ablation.csv",
+      "T02-ablation.md",
+      "T02-ablation.tex",
+      "T02-ablation.table.json"
+    ]
+  },
+  "visual_review": "required",
+  "generator_sha256": {
+    "figurekit.py": "911e94302c95a44917dc01877d0e7fbe21c30196435588a945d9a111a5eef544",
+    "tablekit.py": "86f8aafb6388fe8655820cf65146a075958236b1cf57490bb1438b9435dea805"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  }
+}

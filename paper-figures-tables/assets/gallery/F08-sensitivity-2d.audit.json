@@ -1,0 +1,45 @@
+{
+  "id": "F08-sensitivity-2d",
+  "kind": "heatmap",
+  "synthetic": true,
+  "size_mm": [
+    105,
+    82
+  ],
+  "uncertainty": "none",
+  "independent_unit": null,
+  "source_path_base": "audit_directory",
+  "source_path_policy": "relative where possible; absolute across drives",
+  "source_sha256": {
+    "../examples/configs/F08-sensitivity-2d.json": "117fb2dbfcaea233295c0674510a95d1e794da409a7d2b3165dbbb3139470437",
+    "../examples/data/F08-sensitivity-2d.csv": "cf5dbfe8de1fc81b6e63cb63baf213a9e79af18f98b24d1fcc81ef6d91b19452"
+  },
+  "outputs": [
+    "F08-sensitivity-2d.svg",
+    "F08-sensitivity-2d.pdf",
+    "F08-sensitivity-2d.png"
+  ],
+  "summary": {
+    "spacing": "categorical grid; axis labels state actual values",
+    "interpolation": "none",
+    "missing": "NA / grey",
+    "missing_cells": [
+      {
+        "panel": "grid",
+        "x": "0.001",
+        "y": "0.69999999999999996",
+        "status": "error"
+      }
+    ],
+    "colorbar_quantity": "Accuracy (%)"
+  },
+  "visual_review": "required",
+  "generator_sha256": {
+    "figurekit.py": "911e94302c95a44917dc01877d0e7fbe21c30196435588a945d9a111a5eef544"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  }
+}

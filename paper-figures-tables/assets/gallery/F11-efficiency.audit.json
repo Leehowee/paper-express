@@ -1,0 +1,39 @@
+{
+  "id": "F11-efficiency",
+  "kind": "efficiency",
+  "synthetic": true,
+  "size_mm": [
+    115,
+    85
+  ],
+  "uncertainty": "sd",
+  "independent_unit": "Independent timing/evaluation run",
+  "source_path_base": "audit_directory",
+  "source_path_policy": "relative where possible; absolute across drives",
+  "source_sha256": {
+    "../examples/configs/F11-efficiency.json": "a8b7e31f9ccd00fbfffbed129ea8fde2204d46159ae748ffd57bb8d106b31695",
+    "../examples/data/F11-efficiency.csv": "781f1f7a70c6355fcb9e9004259b4b250481bfb891b8f60dbb684fc4d8bc5f30"
+  },
+  "outputs": [
+    "F11-efficiency.svg",
+    "F11-efficiency.pdf",
+    "F11-efficiency.png"
+  ],
+  "summary": {
+    "frontier_on_means_only": [
+      "Small",
+      "Large",
+      "Adaptive"
+    ],
+    "hardware_protocol": "SYNTHETIC: same hypothetical device, batch=1, includes all inference modules; replace with actual protocol"
+  },
+  "visual_review": "required",
+  "generator_sha256": {
+    "figurekit.py": "911e94302c95a44917dc01877d0e7fbe21c30196435588a945d9a111a5eef544"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  }
+}

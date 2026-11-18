@@ -1,0 +1,80 @@
+name: paper-writing
+version: 4
+description: "按路线与章节渐进加载；本文件是路由说明，不是运行时插件配置。"
+axes:
+  route: [trans, ccf-a, undecided]
+  section: [abstract, introduction, related-work, methods, experiments, conclusion, appendix, full-paper]
+  task: [plan, draft, restructure, compress, polish, translate]
+always_load:
+  - static/core/stance.md
+  - static/core/workflow.md
+  - static/core/output.md
+routes:
+  trans:
+    overview: static/routes/trans/overview.md
+    appendix_default: false
+    sections:
+      abstract: static/routes/trans/abstract.md
+      introduction: static/routes/trans/introduction.md
+      related-work: static/routes/trans/related-work.md
+      methods: static/routes/trans/methods.md
+      experiments: static/routes/trans/experiments.md
+      conclusion: static/routes/trans/conclusion.md
+      appendix: static/routes/trans/appendix.md
+    templates:
+      abstract: assets/templates/trans/abstract.md
+      introduction: assets/templates/trans/introduction.md
+      related-work: assets/templates/trans/related-work.md
+      methods: assets/templates/trans/methods.md
+      experiments: assets/templates/trans/experiments.md
+      conclusion: assets/templates/trans/conclusion.md
+      appendix: assets/templates/trans/appendix.md
+  ccf-a:
+    overview: static/routes/ccf-a/overview.md
+    appendix_default: "按目标会议、年份和阶段核实"
+    sections:
+      abstract: static/routes/ccf-a/abstract.md
+      introduction: static/routes/ccf-a/introduction.md
+      related-work: static/routes/ccf-a/related-work.md
+      methods: static/routes/ccf-a/methods.md
+      experiments: static/routes/ccf-a/experiments.md
+      conclusion: static/routes/ccf-a/conclusion.md
+      appendix: static/routes/ccf-a/appendix.md
+    templates:
+      abstract: assets/templates/ccf-a/abstract.md
+      introduction: assets/templates/ccf-a/introduction.md
+      related-work: assets/templates/ccf-a/related-work.md
+      methods: assets/templates/ccf-a/methods.md
+      experiments: assets/templates/ccf-a/experiments.md
+      conclusion: assets/templates/ccf-a/conclusion.md
+      appendix: assets/templates/ccf-a/appendix.md
+conditional_load:
+  - when: "draft、polish、restructure、compress、translate；同时读取当前路线与章节对应的 templates 文件"
+    path: static/core/drafting-and-polishing.md
+  - when: "full-paper、plan、restructure，或研究主线尚不清楚"
+    path: static/core/narrative-patterns.md
+  - when: "投稿配置、内容分配、篇幅控制或 appendix"
+    path: static/core/venue-and-allocation.md
+  - when: "polish、translate，或需要语言规范"
+    path: static/core/language.md
+  - when: "需要建立或审查数学主张"
+    path: interfaces/theory.md
+  - when: "需要规划、制作或核查图表"
+    path: interfaces/figures-tables.md
+  - when: "用户要求成稿审查、模拟审稿或修改后复审"
+    path: interfaces/review.md
+references_on_demand:
+  - references/source-index.md
+  - references/xinwangliu-analysis.md
+  - references/xipeng-analysis.md
+  - references/nature-adaptation.md
+  - references/usage-examples.md
+  - references/worked-drafting-example.md
+  - references/corpus-manifest.json
+selection_rules:
+  - "局部任务只读对应 route 的 overview、当前 section 及当前任务所需的共用文件；已知上下文直接复用。"
+  - "draft、polish、restructure、compress、translate 加载当前章节的 templates 文件；选择相关套路，不拼接全部变体。"
+  - "初稿与润色默认返回已填充、衔接完成的正文；只有用户索要空白模板时保留模板字段。"
+  - "full-paper 按章节顺序逐个加载，appendix 仍受投稿配置控制。"
+  - "undecided 只加载共用文件，可以先写通用段落，不擅自决定正文限制或附录安排。"
+  - "跨章节修改只补读受影响的章节，不重新启动完整研究流程。"

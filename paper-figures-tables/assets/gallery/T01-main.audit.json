@@ -1,0 +1,59 @@
+{
+  "id": "T01-main",
+  "kind": "table",
+  "synthetic": true,
+  "size_mm": [
+    180,
+    75
+  ],
+  "uncertainty": "sd",
+  "independent_unit": "Independent synthetic seed/run",
+  "source_path_base": "audit_directory",
+  "source_path_policy": "relative where possible; absolute across drives",
+  "source_sha256": {
+    "../examples/configs/T01-main.json": "0018b58b465de7d72ee10a72975a62caf19d3cdd5925b4dbacd7b7793efdc7a4",
+    "../examples/data/T01-main.csv": "57e4ff677bcc65b63b172dbe0d805b717685d3471220aa5a11a4cdd3e1cb0408"
+  },
+  "outputs": [
+    "T01-main.svg",
+    "T01-main.pdf",
+    "T01-main.png"
+  ],
+  "summary": {
+    "n_per_cell": {
+      "matched|Baseline A|Set A|NMI": 3,
+      "extra|Reference+|Set B|ACC": 3,
+      "matched|Baseline B|Set B|NMI": 3,
+      "matched|Baseline A|Set A|ACC": 3,
+      "matched|Baseline B|Set A|NMI": 3,
+      "matched|Baseline B|Set B|ACC": 3,
+      "extra|Reference+|Set A|ACC": 3,
+      "matched|Baseline B|Set A|ACC": 3,
+      "matched|Proposed|Set B|NMI": 3,
+      "matched|Proposed|Set A|NMI": 3,
+      "matched|Proposed|Set A|ACC": 3,
+      "matched|Baseline A|Set B|NMI": 0,
+      "extra|Reference+|Set A|NMI": 3,
+      "matched|Proposed|Set B|ACC": 3,
+      "matched|Baseline A|Set B|ACC": 0,
+      "extra|Reference+|Set B|NMI": 3
+    },
+    "rank_policy": "display precision within comparison block; not significance",
+    "table_files": [
+      "T01-main.csv",
+      "T01-main.md",
+      "T01-main.tex",
+      "T01-main.table.json"
+    ]
+  },
+  "visual_review": "required",
+  "generator_sha256": {
+    "figurekit.py": "911e94302c95a44917dc01877d0e7fbe21c30196435588a945d9a111a5eef544",
+    "tablekit.py": "86f8aafb6388fe8655820cf65146a075958236b1cf57490bb1438b9435dea805"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  }
+}

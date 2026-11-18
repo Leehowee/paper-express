@@ -79,7 +79,7 @@ Hosts with explicit skill invocation can use `$paper-express` in Codex or `/pape
 
 ## 3. Installation
 
-Give your agent this project's repository URL, release archive path, or extracted directory and ask it to install the skill. **Skill installation requires no Python or manually executed installation script.** The maintained source includes the release at `dist/paper-express-3.0.0.zip`.
+Give your agent this project's repository URL, release archive path, or extracted directory and ask it to install the skill. **Skill installation requires no Python or manually executed installation script.** The maintained source includes the release at `dist/paper-express-3.0.0.zip`. [Download the skill ZIP](https://github.com/Leehowee/paper-express/raw/refs/heads/master/dist/paper-express-3.0.0.zip) · [SHA-256](https://github.com/Leehowee/paper-express/blob/master/dist/paper-express-3.0.0.zip.sha256). You can also provide a local ZIP or an extracted `paper-express` directory.
 
 ### 3.1 Ask Codex to install
 
@@ -87,7 +87,7 @@ Send this prompt to Codex, replacing the source with the actual URL or path:
 
 ```text
 Install Paper-Express as a user-level skill for my Codex environment.
-Source: [this project's repository URL, local path to paper-express-3.0.0.zip, or extracted paper-express directory]
+Source: https://github.com/Leehowee/paper-express
 
 Read the source README and INSTALL.md first. For a maintained source checkout, use the release archive under dist/.
 Use system extraction and file tools to obtain the complete paper-express folder and place it in the user-level skills directory this Codex environment actually reads.
@@ -104,7 +104,7 @@ Send this prompt to Claude Code:
 
 ```text
 Install Paper-Express as a user-level skill for Claude Code.
-Source: [this project's repository URL, local path to paper-express-3.0.0.zip, or extracted paper-express directory]
+Source: https://github.com/Leehowee/paper-express
 
 Read the source README and INSTALL.md first. For a maintained source checkout, use the release archive under dist/.
 Use system extraction and file tools to copy the complete paper-express folder to ~/.claude/skills/paper-express/.
@@ -247,7 +247,7 @@ python packaging/build_release.py
 
 Maintainers can run `python packaging/test_release.py` to check release structure, documentation links, manifest hashes, and integrity after copying the complete folder into isolated temporary directories. It does not install into global skills directories. The builder checks local links and generates a SHA-256 inventory. These maintenance tools build and validate the release; agents install the distributed folder directly with system file tools.
 
-Existing checks include recomputing table statistics, rejecting invalid inputs, and inspecting PPTX object structure. Their scope is documented in the [overall validation record](references/final-validation.md) and [figure validation record](paper-figures-tables/references/validation.md). The maintained source stores installation results in `packaging/VALIDATION.md` and its accompanying JSON. Filesystem installation checks are distinguished from live host-UI tests; template validation does not replace experiments or proofs for a real paper.
+Existing checks include recomputing table statistics, rejecting invalid inputs, and inspecting PPTX object structure. Their scope is documented in the [overall validation record](references/final-validation.md) and [figure validation record](paper-figures-tables/references/validation.md). The maintained source records release checks in `packaging/VALIDATION.md`; temporary machine receipts stay in `.build/`. See the [maintenance guide](https://github.com/Leehowee/paper-express/blob/master/CONTRIBUTING.md). Filesystem installation checks are distinguished from live host-UI tests; template validation does not replace experiments or proofs for a real paper.
 
 <a id="sources"></a>
 
@@ -266,4 +266,4 @@ The research and writing templates also draw on the user-curated papers of Gao H
 
 Original paper PDFs, published figures, and upstream archives are not redistributed in the release. Source locations, reading analyses, and relevant license files are retained.
 
-The relevant upstream Nature Skills license is preserved in the [Apache-2.0 license copy](paper-critical-review/licenses/nature-skills-LICENSE.txt). The local snapshot of [figures4papers](https://github.com/ChenLiu-1996/figures4papers), used as a figure reference, contains CC BY-NC 4.0 material; see the [third-party notes](paper-figures-tables/THIRD_PARTY.md) and [license text](paper-figures-tables/licenses/figures4papers-CC-BY-NC-4.0.txt). These source-specific terms are retained separately. The current release does not declare Apache-2.0 or MIT as a blanket license for the entire package.
+The relevant upstream Nature Skills license is preserved in the [Apache-2.0 license copy](paper-critical-review/licenses/nature-skills-LICENSE.txt). The local snapshot of [figures4papers](https://github.com/ChenLiu-1996/figures4papers), used as a figure reference, contains CC BY-NC 4.0 material; see the [third-party notes](paper-figures-tables/THIRD_PARTY.md) and [license text](paper-figures-tables/licenses/figures4papers-CC-BY-NC-4.0.txt). Original project material is covered by the repository owner's [MIT License](LICENSE); third-party terms remain in force. See [NOTICE.md](NOTICE.md) for the scope and exceptions.

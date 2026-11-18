@@ -1,0 +1,4 @@
+interface:
+  display_name: "成型论文批判审查"
+  short_description: "按 Nature、TPAMI 与顶会视角审查成稿，生成有依据的审稿意见和修改方案"
+  default_prompt: "使用 $paper-critical-review 审查我提供的成稿，按目标视角判断贡献与证据，直接给出有位置依据的审稿报告、修改优先级和复核标准。"

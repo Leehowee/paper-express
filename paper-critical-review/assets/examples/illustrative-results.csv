@@ -1,0 +1,4 @@
+dataset,baseline_accuracy_percent,proposed_accuracy_percent,protocol
+D1,80,84,one_fixed_run
+D2,70,72,one_fixed_run
+D3,60,58,one_fixed_run

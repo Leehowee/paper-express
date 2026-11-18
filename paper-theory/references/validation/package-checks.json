@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-11-17T16:29:21.281905+00:00",
+  "status": "passed",
+  "official_skill_validation": {
+    "paper-theory": "Skill is valid!",
+    "paper-writing": "Skill is valid!",
+    "validator": "skill-creator/scripts/quick_validate.py",
+    "executed_before_this_check": true
+  },
+  "yaml_files_parsed": 4,
+  "manifest_paths_checked": 26,
+  "markdown_files_checked": 69,
+  "local_markdown_links_checked": 218,
+  "ui_short_description_characters": 47,
+  "lean_asset_hashes_matched": 8,
+  "lean_audit_entries": 11,
+  "local_pdf_hashes_checked": 9,
+  "supplement_hashes_checked": 1,
+  "methods_adapter_connected": true,
+  "python_syntax": "passed; real positive and negative runs recorded separately",
+  "problems": []
+}

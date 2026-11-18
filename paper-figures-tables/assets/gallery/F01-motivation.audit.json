@@ -1,0 +1,38 @@
+{
+  "id": "F01-motivation",
+  "kind": "curves",
+  "synthetic": true,
+  "size_mm": [
+    180,
+    75
+  ],
+  "uncertainty": "sd",
+  "independent_unit": "Independent synthetic run",
+  "source_path_base": "audit_directory",
+  "source_path_policy": "relative where possible; absolute across drives",
+  "source_sha256": {
+    "../examples/configs/F01-motivation.json": "4a24596897c6d7b0d9c1b905426a5cbec7ab52b927d8e29c4bba5a9d5d3ac2fe",
+    "../examples/data/F01-motivation.csv": "1e6057e92e858dc790fb23190b6d7eae0fc63182931ffa66c6206c1356dcc540"
+  },
+  "outputs": [
+    "F01-motivation.svg",
+    "F01-motivation.pdf",
+    "F01-motivation.png"
+  ],
+  "summary": {
+    "groups": 22,
+    "n_range": [
+      3,
+      3
+    ]
+  },
+  "visual_review": "required",
+  "generator_sha256": {
+    "figurekit.py": "911e94302c95a44917dc01877d0e7fbe21c30196435588a945d9a111a5eef544"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  }
+}

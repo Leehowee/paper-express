@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文写作：Trans 与 CCF-A"
+  short_description: "按期刊与会议分章节组织科研论文，保留证据边界，并衔接理论证明和科研图表任务"
+  default_prompt: "使用 $paper-writing，根据我的研究材料和目标期刊或会议选择写作路线，完成指定章节，保持主张与证据一致，并按需形成理论或图表任务说明。"

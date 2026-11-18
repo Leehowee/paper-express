@@ -1,0 +1,91 @@
+{
+  "id": "T02-ablation",
+  "kind": "table",
+  "data": "../data/T02-ablation.csv",
+  "synthetic": true,
+  "provenance": "Deterministic teaching data from scripts/make_examples.py; not a paper reproduction or research result.",
+  "width_mm": 180,
+  "height_mm": 85,
+  "font_pt": 7,
+  "dpi": 300,
+  "formats": [
+    "svg",
+    "pdf",
+    "png"
+  ],
+  "uncertainty": "sd",
+  "columns": [
+    {
+      "dataset": "Matched task",
+      "metric": "ACC",
+      "label": "ACC",
+      "direction": "up",
+      "decimals": 1
+    },
+    {
+      "dataset": "Matched task",
+      "metric": "NMI",
+      "label": "NMI",
+      "direction": "up",
+      "decimals": 1
+    }
+  ],
+  "groups": [
+    {
+      "id": "controlled",
+      "label": "Matched data, seeds and training budget",
+      "methods": [
+        {
+          "id": "Full",
+          "R": "on",
+          "A": "on",
+          "phase": "train+test"
+        },
+        {
+          "id": "No reliability",
+          "R": "off",
+          "A": "on",
+          "phase": "train+test"
+        },
+        {
+          "id": "No adaptation",
+          "R": "on",
+          "A": "off",
+          "phase": "train"
+        },
+        {
+          "id": "Frozen update",
+          "R": "on",
+          "A": "on",
+          "phase": "frozen"
+        }
+      ]
+    }
+  ],
+  "independent_unit": "Independent synthetic seed/run",
+  "title": "T02 ablation",
+  "descriptor_columns": [
+    {
+      "key": "R",
+      "label": "Reliability"
+    },
+    {
+      "key": "A",
+      "label": "Adaptation"
+    },
+    {
+      "key": "phase",
+      "label": "Stage"
+    }
+  ],
+  "column_widths": [
+    0.23,
+    0.14,
+    0.14,
+    0.17,
+    0.16,
+    0.16
+  ],
+  "caption": "Controlled component variants. Mean ± SD over three matched synthetic seeds. Frozen update is an alternative strategy, not a pure component removal.",
+  "short_note": "Synthetic: mean ± SD, n=3 paired seeds. on/off has an explicit definition."
+}

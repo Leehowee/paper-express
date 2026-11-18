@@ -1,0 +1,18 @@
+request_id: null
+caller: standalone
+claim_ids: []
+research_question: null
+purpose: null
+objects_and_notation: []
+algorithm_version:
+  objective: null
+  update: null
+  initialization: null
+  stopping_rule: null
+  source_or_revision: null
+candidate_statement: null
+assumptions: []
+existing_evidence: []
+implementation_gap: []
+requested_analysis: [assumption_audit, proof_or_counterexample, lean_formalization]
+placement: null

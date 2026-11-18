@@ -1,0 +1,6 @@
+Method / variant,Reliability,Adaptation,Stage,Matched task / ACC ↑,Matched task / NMI ↑
+"Matched data, seeds and training budget",,,,,
+Full,on,on,train+test,81.0 ± 0.3,69.0 ± 0.3
+No reliability,off,on,train+test,76.0 ± 0.3,63.0 ± 0.3
+No adaptation,on,off,train,78.0 ± 0.3,66.0 ± 0.3
+Frozen update,on,on,frozen,82.0 ± 0.3,68.0 ± 0.3

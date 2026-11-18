@@ -1,0 +1,36 @@
+{
+  "id": "F13-embedding",
+  "kind": "embedding",
+  "synthetic": true,
+  "size_mm": [
+    180,
+    75
+  ],
+  "uncertainty": "none",
+  "independent_unit": null,
+  "source_path_base": "audit_directory",
+  "source_path_policy": "relative where possible; absolute across drives",
+  "source_sha256": {
+    "../examples/configs/F13-embedding.json": "cde0eab92f4f03996dcba203dc7f4a8eeae7daa0514a434fcc89dee269329f37",
+    "../examples/data/F13-embedding.csv": "55d085b2a51a78ab96054a78c4c9617375afcd975b8ef798df86c336554392ba"
+  },
+  "outputs": [
+    "F13-embedding.svg",
+    "F13-embedding.pdf",
+    "F13-embedding.png"
+  ],
+  "summary": {
+    "projection_protocol": "Synthetic 2D coordinates, no t-SNE or UMAP was run. Real tasks must supply method, fitted sample IDs, seed, parameters and joint/separate-fit policy.",
+    "sample_count": 90,
+    "not_evidence_of": "causal mechanism or generalization"
+  },
+  "visual_review": "required",
+  "generator_sha256": {
+    "figurekit.py": "911e94302c95a44917dc01877d0e7fbe21c30196435588a945d9a111a5eef544"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  }
+}

@@ -1,0 +1,22 @@
+name: paper-express
+version: 2
+description: "五部分入口索引；按任务加载，不默认执行完整流水线。"
+modules:
+  idea: paper-idea-review/SKILL.md
+  writing: paper-writing/SKILL.md
+  theory: paper-theory/SKILL.md
+  figures_tables: paper-figures-tables/SKILL.md
+  critical_review: paper-critical-review/SKILL.md
+conditional_load:
+  - when: "跨模块交接、稿件版本改变或证据状态冲突"
+    path: shared/research-context.md
+templates:
+  research_context: assets/templates/research-context.yaml
+validation: references/final-validation.md
+shared_context:
+  - research_question
+  - claims_and_evidence
+  - manuscript_version
+  - venue_and_verified_constraints
+  - assumptions_and_boundaries
+  - unresolved_issues

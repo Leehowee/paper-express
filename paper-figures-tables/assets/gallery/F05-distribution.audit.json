@@ -1,0 +1,57 @@
+{
+  "id": "F05-distribution",
+  "kind": "distribution",
+  "synthetic": true,
+  "size_mm": [
+    180,
+    75
+  ],
+  "uncertainty": "none",
+  "independent_unit": null,
+  "source_path_base": "audit_directory",
+  "source_path_policy": "relative where possible; absolute across drives",
+  "source_sha256": {
+    "../examples/configs/F05-distribution.json": "75c5a32bc70530592f5cd2e2098a338d447d82e9a57aa6edfca0293a4634d393",
+    "../examples/data/F05-distribution.csv": "af115d78518be134eeee8cd12e24cef7f1228651d5c974e1c5ebbffe6bf28bbb"
+  },
+  "outputs": [
+    "F05-distribution.svg",
+    "F05-distribution.pdf",
+    "F05-distribution.png"
+  ],
+  "summary": {
+    "samples_per_group": {
+      "Clean": 160,
+      "Corrupted": 160
+    },
+    "bins": [
+      0.0,
+      0.0625,
+      0.125,
+      0.1875,
+      0.25,
+      0.3125,
+      0.375,
+      0.4375,
+      0.5,
+      0.5625,
+      0.625,
+      0.6875,
+      0.75,
+      0.8125,
+      0.875,
+      0.9375,
+      1.0
+    ],
+    "density_area": 1
+  },
+  "visual_review": "required",
+  "generator_sha256": {
+    "figurekit.py": "911e94302c95a44917dc01877d0e7fbe21c30196435588a945d9a111a5eef544"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  }
+}

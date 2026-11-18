@@ -1,0 +1,49 @@
+name: paper-theory
+version: 2
+description: "理论任务的渐进加载说明，不是自动执行插件配置。"
+axes:
+  caller: [standalone, methods, experiments, review]
+  task: [formulate, prove, audit, formalize, draft, polish]
+  route: [well-posedness, value-functions, optimization, statistical-bounds, approximation]
+always_load:
+  - static/core/stance.md
+  - static/core/workflow.md
+  - static/core/output.md
+routes:
+  well-posedness: static/routes/well-posedness.md
+  value-functions: static/routes/value-functions.md
+  optimization: static/routes/optimization.md
+  statistical-bounds: static/routes/statistical-bounds.md
+  approximation: static/routes/approximation.md
+conditional_load:
+  - when: "建立或修改假设、命题与证明"
+    path: assets/templates/theory-contract.md
+  - when: "Lean 形式化、执行或审计"
+    paths:
+      - static/lean/workflow.md
+      - static/lean/integrity.md
+      - assets/templates/lean-formalization.md
+  - when: "Methods 调用或向写作模块返回结果"
+    path: interfaces/methods.md
+  - when: "论文理论初稿、重组或润色"
+    path: assets/templates/manuscript-theory.md
+assets:
+  request: assets/templates/request.yaml
+  result: assets/templates/result.yaml
+  lean_project: assets/lean-project
+scripts:
+  verify_lean: scripts/verify_lean.py
+references_on_demand:
+  - references/source-index.md
+  - references/solo-paper-theory.md
+  - references/other-paper-theory.md
+  - references/counterexamples.md
+  - references/worked-example.md
+  - references/lean-sources.md
+  - references/validation.md
+  - references/corpus-manifest.json
+selection_rules:
+  - "单命题任务只加载对应路线，不强制构造五类定理。"
+  - "已有正文、公式和代码直接复用；独立调用不要求提供论文全文。"
+  - "把可复用引理的成立条件列为应用义务，不能把待证主结论作为假设移入库后宣称完成。"
+  - "数值检查只能用于找反例或诊断，不能替代一般证明。"

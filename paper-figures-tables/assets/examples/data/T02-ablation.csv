@@ -1,0 +1,25 @@
+group,method,dataset,metric,run,value,status
+controlled,Full,Matched task,ACC,1,80.7,ok
+controlled,Full,Matched task,ACC,2,81,ok
+controlled,Full,Matched task,ACC,3,81.3,ok
+controlled,Full,Matched task,NMI,1,68.7,ok
+controlled,Full,Matched task,NMI,2,69,ok
+controlled,Full,Matched task,NMI,3,69.3,ok
+controlled,No reliability,Matched task,ACC,1,75.7,ok
+controlled,No reliability,Matched task,ACC,2,76,ok
+controlled,No reliability,Matched task,ACC,3,76.3,ok
+controlled,No reliability,Matched task,NMI,1,62.7,ok
+controlled,No reliability,Matched task,NMI,2,63,ok
+controlled,No reliability,Matched task,NMI,3,63.3,ok
+controlled,No adaptation,Matched task,ACC,1,77.7,ok
+controlled,No adaptation,Matched task,ACC,2,78,ok
+controlled,No adaptation,Matched task,ACC,3,78.3,ok
+controlled,No adaptation,Matched task,NMI,1,65.7,ok
+controlled,No adaptation,Matched task,NMI,2,66,ok
+controlled,No adaptation,Matched task,NMI,3,66.3,ok
+controlled,Frozen update,Matched task,ACC,1,81.7,ok
+controlled,Frozen update,Matched task,ACC,2,82,ok
+controlled,Frozen update,Matched task,ACC,3,82.3,ok
+controlled,Frozen update,Matched task,NMI,1,67.7,ok
+controlled,Frozen update,Matched task,NMI,2,68,ok
+controlled,Frozen update,Matched task,NMI,3,68.3,ok

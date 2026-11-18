@@ -1,0 +1,10 @@
+| Method / variant | Set A / ACC ↑ | Set A / NMI ↑ | Set B / ACC ↑ | Set B / NMI ↑ |
+| --- | --- | --- | --- | --- |
+| Matched training and evaluation protocol |  |  |  |  |
+| Baseline A | 74.0 ± 0.3 | 62.0 ± 0.3 | OOM | OOM |
+| Baseline B | 77.0 ± 0.3 | 64.0 ± 0.3 | **79.0 ± 0.3** | **70.0 ± 0.3** |
+| Proposed | **79.0 ± 0.3** | **65.0 ± 0.3** | **79.0 ± 0.3** | 69.0 ± 0.3 |
+| Extra supervision (reference only) |  |  |  |  |
+| Reference+ | 84.0 ± 0.3 | 72.0 ± 0.3 | 86.0 ± 0.3 | 75.0 ± 0.3 |
+
+SYNTHETIC EXAMPLE. Mean ± sample SD of three independent synthetic runs per available cell. OOM denotes an explicitly failed run configuration. Extra supervision is a separate reference block. Bold: best displayed mean within each comparison block; ties at displayed precision are retained. This marking is not a significance test.

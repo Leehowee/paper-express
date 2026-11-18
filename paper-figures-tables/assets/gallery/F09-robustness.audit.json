@@ -1,0 +1,38 @@
+{
+  "id": "F09-robustness",
+  "kind": "curves",
+  "synthetic": true,
+  "size_mm": [
+    180,
+    75
+  ],
+  "uncertainty": "sd",
+  "independent_unit": "Independently sampled missingness pattern",
+  "source_path_base": "audit_directory",
+  "source_path_policy": "relative where possible; absolute across drives",
+  "source_sha256": {
+    "../examples/configs/F09-robustness.json": "22f61a2916dfcdd5824ba6ccd2178ee34023fa60afa1d8e43eaa15e0abca366a",
+    "../examples/data/F09-robustness.csv": "70d30f0dca5826dbdd48183f728fa4a9f55fe672f974fb718055f7cfb7da678d"
+  },
+  "outputs": [
+    "F09-robustness.svg",
+    "F09-robustness.pdf",
+    "F09-robustness.png"
+  ],
+  "summary": {
+    "groups": 16,
+    "n_range": [
+      3,
+      3
+    ]
+  },
+  "visual_review": "required",
+  "generator_sha256": {
+    "figurekit.py": "911e94302c95a44917dc01877d0e7fbe21c30196435588a945d9a111a5eef544"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  }
+}

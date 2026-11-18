@@ -1,0 +1,89 @@
+{
+  "id": "T03-parameter",
+  "kind": "table",
+  "data": "../data/T03-parameter.csv",
+  "synthetic": true,
+  "provenance": "Deterministic teaching data from scripts/make_examples.py; not a paper reproduction or research result.",
+  "width_mm": 180,
+  "height_mm": 90,
+  "font_pt": 7,
+  "dpi": 300,
+  "formats": [
+    "svg",
+    "pdf",
+    "png"
+  ],
+  "uncertainty": "sd",
+  "columns": [
+    {
+      "dataset": "Validation",
+      "metric": "ACC",
+      "label": "ACC",
+      "direction": "up",
+      "decimals": 1
+    }
+  ],
+  "groups": [
+    {
+      "id": "search",
+      "label": "Validation sweep; test set not used for selection",
+      "methods": [
+        {
+          "id": "Setting 1",
+          "lambda": 0.001,
+          "beta": 0.3,
+          "selected": ""
+        },
+        {
+          "id": "Setting 2",
+          "lambda": 0.01,
+          "beta": 0.3,
+          "selected": ""
+        },
+        {
+          "id": "Setting 3",
+          "lambda": 0.1,
+          "beta": 0.3,
+          "selected": "default"
+        },
+        {
+          "id": "Setting 4",
+          "lambda": 1,
+          "beta": 0.3,
+          "selected": ""
+        },
+        {
+          "id": "Setting 5",
+          "lambda": 0.1,
+          "beta": 0.7,
+          "selected": ""
+        }
+      ]
+    }
+  ],
+  "independent_unit": "Independent synthetic seed/run",
+  "title": "T03 parameter",
+  "descriptor_columns": [
+    {
+      "key": "lambda",
+      "label": "Weight"
+    },
+    {
+      "key": "beta",
+      "label": "Threshold"
+    },
+    {
+      "key": "selected",
+      "label": "Selection"
+    }
+  ],
+  "column_widths": [
+    0.25,
+    0.18,
+    0.18,
+    0.19,
+    0.2
+  ],
+  "caption": "Mean ± sample SD over three independent synthetic runs. One- and two-factor settings are explicitly enumerated. Default is selected on validation data; this example does not establish a real optimal setting.",
+  "short_note": "Synthetic: mean ± SD, n=3. State tested values, selection split and fixed settings."
+}

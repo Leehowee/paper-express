@@ -1,0 +1,11 @@
+'PaperTheory.minimizer_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaperTheory.two_block_descent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaperTheory.run_feasible' does not depend on any axioms
+'PaperTheory.run_descent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaperTheory.approximate_optimum_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaperTheory.convex_attained_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaperTheory.quadratic_step_descent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaperTheory.quadratic_run_descent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaperTheory.constant_has_two_minimizers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaperTheory.twoWell_not_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PaperTheory.squared_one_sided_max_bound_fails' depends on axioms: [propext, Classical.choice, Quot.sound]

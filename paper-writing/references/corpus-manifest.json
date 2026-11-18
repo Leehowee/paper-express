@@ -1,0 +1,304 @@
+{
+  "compiled_at": "2026-11-17",
+  "scope": "Writing-focused close reading of local user-provided PDFs; selected narrative, mathematical-exposition, experimental-analysis and appendix passages. Extraction is not equivalent to reading; no independent theorem audit or experimental replication.",
+  "page_numbering": "one-based physical PDF pages",
+  "papers": [
+    {
+      "id": "XL01",
+      "title": "Efficient and Effective Regularized Incomplete Multi-View Clustering",
+      "path_from_workspace": "XinwangLiu/TPAMI/1_4_XinwangLiu_TPAMI21.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/1_4_XinwangLiu_TPAMI21.pdf",
+      "sha256": "e8c9fbddc7a686cecb76abaa8785744d94ad661965715e3fb1106758fd23f5c0",
+      "pdf_pages": 13,
+      "local_version_note": "TPAMI 43(8), 2021，13 页",
+      "reading_scope": "p1–2；p4–6；p7 协议及理论衔接选段；p12 分析与结论。问题分解、期刊扩展、正则动机、求解与泛化",
+      "visually_reviewed_pdf_pages": [],
+      "independently_verified_theory": false,
+      "replicated_experiments": false
+    },
+    {
+      "id": "XL02",
+      "title": "Multiple Kernel k-Means with Incomplete Kernels",
+      "path_from_workspace": "XinwangLiu/TPAMI/2_2_XinwangLiu_TPAMI20.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/2_2_XinwangLiu_TPAMI20.pdf",
+      "sha256": "1c333b05b32bff25ef4cd89a5575d16492d60124459979d7ec7ed78674088abf",
+      "pdf_pages": 14,
+      "local_version_note": "TPAMI 42(5), 2020，14 页",
+      "reading_scope": "p1–3、5；p6 理论与设置选段；p11 §5.8 起、p12 至参考文献前。联合目标、约束、近似算法与保证边界",
+      "visually_reviewed_pdf_pages": [],
+      "independently_verified_theory": false,
+      "replicated_experiments": false
+    },
+    {
+      "id": "XL03",
+      "title": "Absent Multiple Kernel Learning Algorithms",
+      "path_from_workspace": "XinwangLiu/TPAMI/2_3_XinwangLiu_TPAMI20.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/2_3_XinwangLiu_TPAMI20.pdf",
+      "sha256": "aebf95e6a2df04747d6901099a3718864243069ccdc0a2654821dc3a3e92bf70",
+      "pdf_pages": 14,
+      "local_version_note": "TPAMI 42(6), 2020，14 页",
+      "reading_scope": "p1–3、6–7；p12 结论。问题与最近工作、多个求解方案、理论条件与预测过程",
+      "visually_reviewed_pdf_pages": [],
+      "independently_verified_theory": false,
+      "replicated_experiments": false
+    },
+    {
+      "id": "XL04",
+      "title": "Communication-Efficient Federated Multi-view Clustering",
+      "path_from_workspace": "XinwangLiu/TPAMI/CeFMC_early_access.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/CeFMC_early_access.pdf",
+      "sha256": "9fef8f9a3b6cce7d8e54f03ef5b22770496459406329932f17de4819ac9d3005",
+      "pdf_pages": 16,
+      "local_version_note": "2025 accepted author version，16 页",
+      "reading_scope": "p1–2；p3–8 方法相关段落；p9 设置与基线选段；p13 分析；p14 参数与结论选段。通用框架/实例、通信与计算成本。视觉核对 p2",
+      "visually_reviewed_pdf_pages": [
+        2
+      ],
+      "independently_verified_theory": false,
+      "replicated_experiments": false
+    },
+    {
+      "id": "XL05",
+      "title": "Contrastive Multi-View Kernel Learning",
+      "path_from_workspace": "XinwangLiu/TPAMI/Contrastive_Multi-view_Kernel_Learning.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/Contrastive_Multi-view_Kernel_Learning.pdf",
+      "sha256": "aec8a786ee1cb136f2bad738406c133a728607125556e53f03f3c43903dd57e0",
+      "pdf_pages": 15,
+      "local_version_note": "TPAMI 45(8), 2023，15 页",
+      "reading_scope": "p1–5；p7 协议与结果选段；p9、12–13。核生成与下游实例、结果例外、机制分析、关系讨论",
+      "visually_reviewed_pdf_pages": [],
+      "independently_verified_theory": false,
+      "replicated_experiments": false
+    },
+    {
+      "id": "XL06",
+      "title": "Hyperparameter-Free Localized Simple Multiple Kernel K-means With Global Optimum",
+      "path_from_workspace": "XinwangLiu/TPAMI/Hyperparameter-Free_Localized_Simple_Multiple_Kernel_K-means_With_Global_Optimum.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/Hyperparameter-Free_Localized_Simple_Multiple_Kernel_K-means_With_Global_Optimum.pdf",
+      "sha256": "537c5476e4c6c7cc6a19485548dd6974b93601854a1224907e91b83e3669b472",
+      "pdf_pages": 11,
+      "local_version_note": "TPAMI 45(7), 2023，11 页",
+      "reading_scope": "p1–2、4、6、8、10。由参数选择进入新目标、求解和理论；协议与权重、参数、运行分析",
+      "visually_reviewed_pdf_pages": [],
+      "independently_verified_theory": false,
+      "replicated_experiments": false
+    },
+    {
+      "id": "XL07",
+      "title": "Generalized Probabilistic Graphical Modeling for Multi-View Bipartite Graph Clustering",
+      "path_from_workspace": "XinwangLiu/TPAMI/Liang-Li-IEEE-TPAMI-2025.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/Liang-Li-IEEE-TPAMI-2025.pdf",
+      "sha256": "f90f657d72b40795cd6042161cdd0897fca6b317724a9d2ce1b1a17097290642",
+      "pdf_pages": 14,
+      "local_version_note": "TPAMI 47(12), 2025，14 页",
+      "reading_scope": "p1–4 核心论述；p6、8、11。生成关系、分布实例、约束、统计比较与消融。视觉核对 p8",
+      "visually_reviewed_pdf_pages": [
+        8
+      ],
+      "independently_verified_theory": false,
+      "replicated_experiments": false
+    },
+    {
+      "id": "XL08",
+      "title": "SimpleMKKM: Simple Multiple Kernel K-means",
+      "path_from_workspace": "XinwangLiu/TPAMI/SimpleMKKM.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/SimpleMKKM.pdf",
+      "sha256": "2572e490c7a775f45a9539ca6bde0e445f7186e3f6563e6cac5ec737b343e442",
+      "pdf_pages": 13,
+      "local_version_note": "本地稿件抬头为 submitted 2022，13 页",
+      "reading_scope": "p1–8、12。目标与求解器共同变化、性质论证、交叉消融、成本与结论；不将抬头当作最终出版信息",
+      "visually_reviewed_pdf_pages": [],
+      "independently_verified_theory": false,
+      "replicated_experiments": false
+    },
+    {
+      "id": "XL09",
+      "title": "Incomplete Multiple Kernel Alignment Maximization for Clustering",
+      "path_from_workspace": "XinwangLiu/TPAMI/TPAMI_IncomSimpleMKKM.pdf",
+      "link_from_references": "../../../XinwangLiu/TPAMI/TPAMI_IncomSimpleMKKM.pdf",
+      "sha256": "826a7b769174ae459d52269f4e6e656bc6de75a2c8d3b86cde89695d262595c0",
+      "pdf_pages": 13,
+      "local_version_note": "本地稿件抬头为 June 2021，13 页",
+      "reading_scope": "p1–5；p6 协议选段；p12、p13 结论。完整/缺失设置关系、参数化、理论与经验的区分；最终出版元数据未另行核实",
+      "visually_reviewed_pdf_pages": [],
+      "independently_verified_theory": false,
+      "replicated_experiments": false
+    },
+    {
+      "id": "XP01",
+      "title": "Partially View-aligned Clustering",
+      "path_from_workspace": "XiPeng/2020-NeurIPS-Partially-View-aligned-Clustering.pdf",
+      "link_from_references": "../../../XiPeng/2020-NeurIPS-Partially-View-aligned-Clustering.pdf",
+      "sha256": "e9ac49c801e85c0460a7e6beb506ec05275f2d5d05810e50846fce22f1d99b40",
+      "pdf_pages": 11,
+      "local_version_note": "NeurIPS 2020，11 页",
+      "reading_scope": "p1–9 主论述。信息假设、相邻问题、对齐模块、信息条件不同的比较与局限；文中外部补充材料未提供",
+      "visually_reviewed_pdf_pages": [],
+      "independently_verified_theory": false,
+      "replicated_experiments": false
+    },
+    {
+      "id": "XP02",
+      "title": "Learning with Noisy Correspondence for Cross-modal Matching",
+      "path_from_workspace": "XiPeng/2021-NeurIPS-Learning-with-Noisy-Correspondence-for-Cross-modal-Matching.pdf",
+      "link_from_references": "../../../XiPeng/2021-NeurIPS-Learning-with-Noisy-Correspondence-for-Cross-modal-Matching.pdf",
+      "sha256": "781dbe4fb835f9209daf8c94c57663feeda221e35276895e806d7b8e6cc0e694",
+      "pdf_pages": 14,
+      "local_version_note": "NeurIPS 2021，14 页",
+      "reading_scope": "p1–6；p7 协议与设置；p9–10 分析和结论。未对 p8 主结果表作逐项核算；文中外部补充材料未提供",
+      "visually_reviewed_pdf_pages": [],
+      "independently_verified_theory": false,
+      "replicated_experiments": false
+    },
+    {
+      "id": "XP03",
+      "title": "Conditional Representation Learning for Customized Tasks",
+      "path_from_workspace": "XiPeng/2025-NeurIPS-Conditional-Representation-Learning-for-Customized-Tasks.pdf",
+      "link_from_references": "../../../XiPeng/2025-NeurIPS-Conditional-Representation-Learning-for-Customized-Tasks.pdf",
+      "sha256": "ce5ec6c6fcfd40523cd44f99a6512f3424788b283d3a645482fe14582be9d748",
+      "pdf_pages": 32,
+      "local_version_note": "NeurIPS 2025；本地 arXiv v2 标记 2025-12-13，32 页",
+      "reading_scope": "p1–10 主论述；核对 p11–22 参考文献/checklist 与 p23 附录起点；选读 p24 的提示词/设置及 p31–32 消融。其他附录表与响应列表未逐项审查",
+      "visually_reviewed_pdf_pages": [],
+      "independently_verified_theory": false,
+      "replicated_experiments": false
+    },
+    {
+      "id": "XP04",
+      "title": "Test-Time Degradation Adaptation for Open-Set Image Restoration",
+      "path_from_workspace": "XiPeng/gou24a.pdf",
+      "link_from_references": "../../../XiPeng/gou24a.pdf",
+      "sha256": "8d192916611c0a9e51cf42b25bca1e56c753c6a05e29a29d9ccb17a9e189b281",
+      "pdf_pages": 11,
+      "local_version_note": "ICML 2024 / PMLR 235，11 页",
+      "reading_scope": "p1–9 主论述；p10–11 为参考文献。本地文件无附录。视觉核对 p1 问题对比图",
+      "visually_reviewed_pdf_pages": [
+        1
+      ],
+      "independently_verified_theory": false,
+      "replicated_experiments": false
+    },
+    {
+      "id": "XP05",
+      "title": "Multi-Granularity Correspondence Learning from Long-Term Noisy Videos",
+      "path_from_workspace": "XiPeng/ICLR-2024-multi-granularity-correspondence-learning-from-long-term-noisy-videos-Paper-Conference.pdf",
+      "link_from_references": "../../../XiPeng/ICLR-2024-multi-granularity-correspondence-learning-from-long-term-noisy-videos-Paper-Conference.pdf",
+      "sha256": "315485c85cf978619fe900ef8a35b5db2c08a969eb02736c1bec91a5ede5c8b9",
+      "pdf_pages": 20,
+      "local_version_note": "ICLR 2024，20 页",
+      "reading_scope": "p1–9；附录 p16 求解推导、p17 效率与噪声验证、p18 应用范围选段。p15、19–20 未逐项深读。视觉核对 p4 方法图",
+      "visually_reviewed_pdf_pages": [
+        4
+      ],
+      "independently_verified_theory": false,
+      "replicated_experiments": false
+    },
+    {
+      "id": "XP06",
+      "title": "Learning with Dual-Level Noisy Correspondence for Multi-Modal Entity Alignment",
+      "path_from_workspace": "XiPeng/ICLR-2026-learning-with-dual-level-noisy-correspondence-for-multi-modal-entity-alignment-Paper-Conference.pdf",
+      "link_from_references": "../../../XiPeng/ICLR-2026-learning-with-dual-level-noisy-correspondence-for-multi-modal-entity-alignment-Paper-Conference.pdf",
+      "sha256": "13b2a46bd452c514b5f4550ba107a15059520df6512912b9598afac22203b032",
+      "pdf_pages": 32,
+      "local_version_note": "ICLR 2026，32 页",
+      "reading_scope": "p1–10 主论述；p13 附录目录；p18 证明及实现开头。其余附录按目录定位，未逐项复核噪声统计、扩展实验和案例。视觉核对 p13",
+      "visually_reviewed_pdf_pages": [
+        13
+      ],
+      "independently_verified_theory": false,
+      "replicated_experiments": false
+    },
+    {
+      "id": "XP07",
+      "title": "Uncover Underlying Correspondence for Robust Multi-View Clustering",
+      "path_from_workspace": "XiPeng/ICLR-2026-uncover-underlying-correspondence-for-robust-multi-view-clustering-Paper-Conference.pdf",
+      "link_from_references": "../../../XiPeng/ICLR-2026-uncover-underlying-correspondence-for-robust-multi-view-clustering-Paper-Conference.pdf",
+      "sha256": "021053de9438ab629b5812affee92cb81426f2c536543509dd38bf905bc87d89",
+      "pdf_pages": 20,
+      "local_version_note": "ICLR 2026，20 页",
+      "reading_scope": "p1–9，p10 结论续段；p14–15 证明与实现；p16–19 协议、扩展问题及理论/经验分析选段。p10 的 Table 2 未逐项核算，p20 未深读。视觉核对 p6",
+      "visually_reviewed_pdf_pages": [
+        6
+      ],
+      "independently_verified_theory": false,
+      "replicated_experiments": false
+    }
+  ],
+  "upstream": {
+    "archive_from_workspace": "nature-skills-main.zip",
+    "archive_sha256": "2bcef6b8444ede45a8e48deda96073a9b55b214efecef76d23939b6df755e406",
+    "read_members": [
+      {
+        "archive_member": "nature-skills-main/skills/nature-writing/SKILL.md",
+        "sha256": "ce7c4d20329b96b03b0f0c0bb744411b1b4deaa7a7b69b90757705a83c195b12"
+      },
+      {
+        "archive_member": "nature-skills-main/skills/nature-writing/manifest.yaml",
+        "sha256": "91004af376547a51b033e7e7aeab9fd81eb1fa727995afb9e8823a844e32925a"
+      },
+      {
+        "archive_member": "nature-skills-main/skills/nature-writing/static/core/stance.md",
+        "sha256": "ebe691909f4aef282e0d976565fb08ec2b41e62b72f464629c9781d732c53326"
+      },
+      {
+        "archive_member": "nature-skills-main/skills/nature-writing/static/core/workflow.md",
+        "sha256": "e02426a89e729d6f725d83a4ad41f8393a3aa0fcd968c7a0402a0e2b6b6293fd"
+      },
+      {
+        "archive_member": "nature-skills-main/skills/nature-writing/static/core/output-format.md",
+        "sha256": "46d34afa2eed2162051ac265eb14a7ce04de8aa022348cd7ad96045fafdc3b68"
+      },
+      {
+        "archive_member": "nature-skills-main/skills/nature-writing/references/experiments.md",
+        "sha256": "ba4f469b4e65f5ee042d0d5891ff5182512fde60b66f014a7b035993ae1d4548"
+      },
+      {
+        "archive_member": "nature-skills-main/skills/nature-shared/core/main-text-discipline.md",
+        "sha256": "d43190c4d617096c1088bb5452cec5b0ae13f5d4947c2b21c28315181f051b8e"
+      },
+      {
+        "archive_member": "nature-skills-main/skills/nature-writing/static/fragments/section/abstract.md",
+        "sha256": "0f60dc39a2e0f9cccf043cef55ad9ce9d629f9397a8ffc58436dd0dd6dae8fc5"
+      },
+      {
+        "archive_member": "nature-skills-main/skills/nature-writing/static/fragments/section/intro.md",
+        "sha256": "d8ca45bb0c12df3c4805460a9f1023b769ce05d99771a87652756229f4102450"
+      },
+      {
+        "archive_member": "nature-skills-main/skills/nature-writing/static/fragments/section/related-work.md",
+        "sha256": "96f42b73af918123173c30467698e78d42ed00dc043171265cdd2bc6e5fb3bd6"
+      },
+      {
+        "archive_member": "nature-skills-main/skills/nature-writing/static/fragments/section/method.md",
+        "sha256": "6e75016acd655da12a19cc90e89fd6c502997a86845c98151eb4b9aad5e3695f"
+      },
+      {
+        "archive_member": "nature-skills-main/skills/nature-writing/static/fragments/section/experiments.md",
+        "sha256": "299182cbc369969f203237058bccf4abd439ca5459290fe075fe3a3be4ed1f5d"
+      },
+      {
+        "archive_member": "nature-skills-main/skills/nature-writing/static/fragments/section/conclusion.md",
+        "sha256": "5287996cba0ef8f41a540abc4e50aae8e830a056a5de7188f6bc2b701ac78bd6"
+      },
+      {
+        "archive_member": "nature-skills-main/skills/nature-writing/static/fragments/paper_type/algorithmic.md",
+        "sha256": "a6e548d38dfbb60bbc9beac713da4b51c625adcce55cdc688d4578a530b2c35b"
+      },
+      {
+        "archive_member": "nature-skills-main/skills/nature-writing/static/fragments/paper_type/methods.md",
+        "sha256": "eebf6bdd16e3114abf8b03b524af22c9183444d7e30e8c4ecc5fc37b32a636f0"
+      },
+      {
+        "archive_member": "nature-skills-main/skills/nature-writing/static/fragments/language/en.md",
+        "sha256": "6de5e67bf7c90361237f998c10f98d6d2c61e9c067ce3c686cab6a3cdf919caf"
+      },
+      {
+        "archive_member": "nature-skills-main/skills/nature-writing/static/fragments/language/zh-to-en.md",
+        "sha256": "a60506956df0a5b1e006fe17aec2bc843b1a0463662f5675cb9dc6db112a96c8"
+      }
+    ],
+    "license_member": "nature-skills-main/LICENSE",
+    "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "notice_files": []
+  }
+}

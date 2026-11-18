@@ -1,0 +1,4 @@
+# Versions actually used for the bundled gallery. Python 3.12+ required by NumPy.
+matplotlib==3.11.2
+numpy==2.5.5
+pillow==13.0.0

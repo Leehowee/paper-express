@@ -1,0 +1,31 @@
+name: paper-idea-review
+version: 1
+description: "按主要科学未知选择路径；模板用于直接完成审查与问题重写。"
+axes:
+  route: [problem-driven, hypothesis-driven, mechanism-driven, theory-driven, framework-driven]
+  task: [review, refine, compare, pilot-plan, handoff]
+always_load:
+  - references/common-review.md
+  - references/output-contract.md
+routes:
+  problem-driven: references/routes/problem-driven.md
+  hypothesis-driven: references/routes/hypothesis-driven.md
+  mechanism-driven: references/routes/mechanism-driven.md
+  theory-driven: references/routes/theory-driven.md
+  framework-driven: references/routes/framework-driven.md
+templates:
+  review_and_rewrite: assets/templates/idea-review.md
+conditional_load:
+  - when: "形成研究主线供写作、理论、图表或成稿审查使用"
+    path: interfaces/research.md
+references_on_demand:
+  - references/worked-examples.md
+  - references/gaohuang-synthesis.md
+  - references/source-index.md
+  - references/nature-skills-adaptation.md
+  - references/corpus-manifest.json
+selection_rules:
+  - "按未知关系选择一个主路径，必要时加辅助路径，不依次执行五套模板。"
+  - "直接给出优化后的问题与验证方案，不能只返回审查维度。"
+  - "模板中的已有工作、因果关系和效果均需实际依据；缺失处明确待核实。"
+  - "独立调用不依赖其他模块；需要交接时再读取接口。"

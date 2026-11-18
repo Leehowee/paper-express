@@ -1,0 +1,21 @@
+request_id: FIG1
+claim_ids: []
+stable_label: fig:placeholder
+status: generated # layout_only | generated | checked_with_limits | checked
+artifacts: [] # path, format, width_mm, height_mm, source_or_export
+caption: null
+text_link: null # 正文解释其意义的一至两句
+data_mapping:
+  sources_and_hashes: []
+  aggregation: null
+  uncertainty: null
+  transforms_and_filtering: []
+  missing_and_failed_runs: []
+supported_statement: null
+unsupported_extensions: []
+checks:
+  numeric: {status: not-run, details: []}
+  semantic: {status: not-run, details: []}
+  visual_final_size: {status: not-run, details: []}
+  editable_roundtrip: {status: not-run, application: null, details: []}
+unresolved: []

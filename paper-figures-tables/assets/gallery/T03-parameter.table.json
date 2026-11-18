@@ -1,0 +1,106 @@
+{
+  "id": "T03-parameter",
+  "synthetic": true,
+  "headers": [
+    "Method / variant",
+    "Weight",
+    "Threshold",
+    "Selection",
+    "Validation\nACC ↑"
+  ],
+  "rows": [
+    [
+      "Validation sweep; test set not used for selection",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Setting 1",
+      "0.001",
+      "0.3",
+      "",
+      "71.0 ± 0.3"
+    ],
+    [
+      "Setting 2",
+      "0.01",
+      "0.3",
+      "",
+      "77.0 ± 0.3"
+    ],
+    [
+      "Setting 3",
+      "0.1",
+      "0.3",
+      "default",
+      "81.0 ± 0.3"
+    ],
+    [
+      "Setting 4",
+      "1",
+      "0.3",
+      "",
+      "80.0 ± 0.3"
+    ],
+    [
+      "Setting 5",
+      "0.1",
+      "0.7",
+      "",
+      "76.0 ± 0.3"
+    ]
+  ],
+  "group_rows": [
+    0
+  ],
+  "caption": "SYNTHETIC EXAMPLE. Mean ± sample SD over three independent synthetic runs. One- and two-factor settings are explicitly enumerated. Default is selected on validation data; this example does not establish a real optimal setting. Bold: best displayed mean within each comparison block; ties at displayed precision are retained. This marking is not a significance test.",
+  "column_widths": [
+    0.25,
+    0.18,
+    0.18,
+    0.19,
+    0.2
+  ],
+  "best_cells": [
+    [
+      4,
+      4
+    ]
+  ],
+  "ranks": {
+    "search|Setting 1|Validation|ACC": 5,
+    "search|Setting 2|Validation|ACC": 3,
+    "search|Setting 3|Validation|ACC": 1,
+    "search|Setting 4|Validation|ACC": 2,
+    "search|Setting 5|Validation|ACC": 4
+  },
+  "cells": {
+    "search|Setting 5|Validation|ACC": {
+      "mean": 76.0,
+      "sd": 0.29999999999999716,
+      "n": 3
+    },
+    "search|Setting 1|Validation|ACC": {
+      "mean": 71.0,
+      "sd": 0.29999999999999716,
+      "n": 3
+    },
+    "search|Setting 2|Validation|ACC": {
+      "mean": 77.0,
+      "sd": 0.29999999999999716,
+      "n": 3
+    },
+    "search|Setting 3|Validation|ACC": {
+      "mean": 81.0,
+      "sd": 0.29999999999999716,
+      "n": 3
+    },
+    "search|Setting 4|Validation|ACC": {
+      "mean": 80.0,
+      "sd": 0.29999999999999716,
+      "n": 3
+    }
+  }
+}

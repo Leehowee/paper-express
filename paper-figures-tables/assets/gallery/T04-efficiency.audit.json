@@ -1,0 +1,52 @@
+{
+  "id": "T04-efficiency",
+  "kind": "table",
+  "synthetic": true,
+  "size_mm": [
+    180,
+    75
+  ],
+  "uncertainty": "sd",
+  "independent_unit": "Independent synthetic seed/run",
+  "source_path_base": "audit_directory",
+  "source_path_policy": "relative where possible; absolute across drives",
+  "source_sha256": {
+    "../examples/configs/T04-efficiency.json": "76f66b4b6734019bbab4bd2dda21e90d99519a32cd7254ca1a7c6cda51b55070",
+    "../examples/data/T04-efficiency.csv": "280e2be8e8afdfd5ce552befe98052f4da5cf748343ab43bd9a09804e739a4f8"
+  },
+  "outputs": [
+    "T04-efficiency.svg",
+    "T04-efficiency.pdf",
+    "T04-efficiency.png"
+  ],
+  "summary": {
+    "n_per_cell": {
+      "device|Small|Inference|memory": 3,
+      "device|Large|Inference|memory": 3,
+      "device|Large|Inference|latency": 3,
+      "device|Small|Inference|latency": 3,
+      "device|Adaptive|Inference|ACC": 3,
+      "device|Small|Inference|ACC": 3,
+      "device|Large|Inference|ACC": 3,
+      "device|Adaptive|Inference|memory": 3,
+      "device|Adaptive|Inference|latency": 3
+    },
+    "rank_policy": "display precision within comparison block; not significance",
+    "table_files": [
+      "T04-efficiency.csv",
+      "T04-efficiency.md",
+      "T04-efficiency.tex",
+      "T04-efficiency.table.json"
+    ]
+  },
+  "visual_review": "required",
+  "generator_sha256": {
+    "figurekit.py": "911e94302c95a44917dc01877d0e7fbe21c30196435588a945d9a111a5eef544",
+    "tablekit.py": "86f8aafb6388fe8655820cf65146a075958236b1cf57490bb1438b9435dea805"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  }
+}

@@ -1,0 +1,13 @@
+series,run,cost,score,status
+Small,1,11.5,69.7,ok
+Small,2,12,70.0,ok
+Small,3,12.5,70.3,ok
+Large,1,44.5,81.7,ok
+Large,2,45,82.0,ok
+Large,3,45.5,82.3,ok
+Adaptive,1,23.5,79.7,ok
+Adaptive,2,24,80.0,ok
+Adaptive,3,24.5,80.3,ok
+Control,1,33.5,73.7,ok
+Control,2,34,74.0,ok
+Control,3,34.5,74.3,ok

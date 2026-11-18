@@ -1,0 +1,48 @@
+{
+  "id": "T03-parameter",
+  "kind": "table",
+  "synthetic": true,
+  "size_mm": [
+    180,
+    90
+  ],
+  "uncertainty": "sd",
+  "independent_unit": "Independent synthetic seed/run",
+  "source_path_base": "audit_directory",
+  "source_path_policy": "relative where possible; absolute across drives",
+  "source_sha256": {
+    "../examples/configs/T03-parameter.json": "86a0be08e05ac6a61af92ebbc4ce115944fac95e94564258580c4bfa0dadcced",
+    "../examples/data/T03-parameter.csv": "b38e079ce4c5c1b6c2fabe9160575c92f11b8e05384301434ccf18f61bafaac9"
+  },
+  "outputs": [
+    "T03-parameter.svg",
+    "T03-parameter.pdf",
+    "T03-parameter.png"
+  ],
+  "summary": {
+    "n_per_cell": {
+      "search|Setting 5|Validation|ACC": 3,
+      "search|Setting 1|Validation|ACC": 3,
+      "search|Setting 2|Validation|ACC": 3,
+      "search|Setting 3|Validation|ACC": 3,
+      "search|Setting 4|Validation|ACC": 3
+    },
+    "rank_policy": "display precision within comparison block; not significance",
+    "table_files": [
+      "T03-parameter.csv",
+      "T03-parameter.md",
+      "T03-parameter.tex",
+      "T03-parameter.table.json"
+    ]
+  },
+  "visual_review": "required",
+  "generator_sha256": {
+    "figurekit.py": "911e94302c95a44917dc01877d0e7fbe21c30196435588a945d9a111a5eef544",
+    "tablekit.py": "86f8aafb6388fe8655820cf65146a075958236b1cf57490bb1438b9435dea805"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  }
+}

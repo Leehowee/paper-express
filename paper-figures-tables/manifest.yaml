@@ -1,0 +1,53 @@
+name: paper-figures-tables
+version: 2
+description: "按展示任务加载；本文件是路由说明，不是运行时插件配置。"
+axes:
+  task: [plan, create, revise, audit, caption, template]
+  section: [introduction, methods, experiments, appendix, standalone]
+  evidence: [measured, model-output, schematic, mixed, synthetic-example]
+always_load:
+  - static/core/workflow.md
+  - static/core/data-contract.md
+routes:
+  motivation: static/routes/motivation.md
+  schematics: static/routes/schematics.md
+  results-tables: static/routes/results-tables.md
+  ablation: static/routes/ablation.md
+  mechanism: static/routes/mechanism.md
+  sensitivity: static/routes/sensitivity.md
+  robustness: static/routes/robustness.md
+  convergence: static/routes/convergence.md
+  efficiency: static/routes/efficiency.md
+  cases: static/routes/cases.md
+assets:
+  catalog: assets/template-catalog.md
+  figure_configs: assets/examples/configs
+  raw_example_data: assets/examples/data
+  rendered_examples: assets/gallery
+  native_pptx: assets/native/paper-figure-table-templates.pptx
+  editable_scenes: assets/diagram-scenes.json
+  captions: assets/templates/captions.md
+  request: assets/templates/figure-brief.yaml
+  return: assets/templates/figure-return.yaml
+conditional_load:
+  - when: "制作、改图、换数据、运行模板"
+    path: references/running.md
+  - when: "统一风格、调整尺寸、导出"
+    path: static/core/style-export.md
+  - when: "核查或交付"
+    path: static/core/quality-output.md
+  - when: "由写作模块调用或向写作模块返回"
+    path: interfaces/writing.md
+references_on_demand:
+  - references/source-index.md
+  - references/gaohuang-analysis.md
+  - references/xipeng-analysis.md
+  - references/xinwangliu-analysis.md
+  - references/upstream-adaptation.md
+  - references/corpus-manifest.json
+  - references/validation.md
+selection_rules:
+  - "只加载当前问题对应的路线和资产；无需把每篇论文做成相同图表套装。"
+  - "精确数值用表，趋势用图，信息流用示意；同一数据无需机械重复。"
+  - "缺少实测数据时只交付结构；合成示例必须保留显著标识。"
+  - "期刊增加证据深度；会议正文保留关键判断，附录扩展条件、重复和案例。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper-Express"
+  short_description: "按任务连接 Idea 审查、论文写作、数学理论、科研图表与成稿批判五个模块"
+  default_prompt: "使用 $paper-express，根据我当前的科研论文任务选择相应模块，保留主张、证据和适用边界，直接交付所需结果。"

@@ -1,0 +1,38 @@
+{
+  "id": "F10-convergence",
+  "kind": "curves",
+  "synthetic": true,
+  "size_mm": [
+    180,
+    75
+  ],
+  "uncertainty": "sd",
+  "independent_unit": "Independent initialization",
+  "source_path_base": "audit_directory",
+  "source_path_policy": "relative where possible; absolute across drives",
+  "source_sha256": {
+    "../examples/configs/F10-convergence.json": "753b25269468bd1bbc7b4ae15e82b8ca736262095876f440e9e0fa3c8ace9ca2",
+    "../examples/data/F10-convergence.csv": "d302b318f338ed61e68ec8afbb9e6cf92edd767484edc8eaf0adb8aa7a2330ee"
+  },
+  "outputs": [
+    "F10-convergence.svg",
+    "F10-convergence.pdf",
+    "F10-convergence.png"
+  ],
+  "summary": {
+    "groups": 28,
+    "n_range": [
+      3,
+      3
+    ]
+  },
+  "visual_review": "required",
+  "generator_sha256": {
+    "figurekit.py": "911e94302c95a44917dc01877d0e7fbe21c30196435588a945d9a111a5eef544"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  }
+}

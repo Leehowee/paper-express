@@ -1,0 +1,28 @@
+{
+  "id": "F04-ablation",
+  "kind": "ablation",
+  "data": "../data/F04-ablation.csv",
+  "synthetic": true,
+  "provenance": "Deterministic teaching data from scripts/make_examples.py; not a paper reproduction or research result.",
+  "width_mm": 180,
+  "height_mm": 80,
+  "font_pt": 8,
+  "dpi": 300,
+  "formats": [
+    "svg",
+    "pdf",
+    "png"
+  ],
+  "uncertainty": "sd",
+  "series": [
+    "Full",
+    "No reliability",
+    "No adaptation",
+    "Frozen update"
+  ],
+  "reference": "Full",
+  "ylabel": "Accuracy (%) ↑",
+  "delta_label": "Full − variant\n(percentage points)",
+  "title": "Component effects and paired differences",
+  "independent_unit": "Matched independent seed"
+}

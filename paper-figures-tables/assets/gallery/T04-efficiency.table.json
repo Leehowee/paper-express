@@ -1,0 +1,113 @@
+{
+  "id": "T04-efficiency",
+  "synthetic": true,
+  "headers": [
+    "Method / variant",
+    "Inference\nACC (%) ↑",
+    "Inference\nLatency (ms) ↓",
+    "Inference\nMemory (GB) ↓"
+  ],
+  "rows": [
+    [
+      "Same device / batch / precision / input / timing scope",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Small",
+      "70.0 ± 0.3",
+      "12.0 ± 0.3",
+      "2.0 ± 0.3"
+    ],
+    [
+      "Large",
+      "82.0 ± 0.3",
+      "45.0 ± 0.3",
+      "6.0 ± 0.3"
+    ],
+    [
+      "Adaptive",
+      "80.0 ± 0.3",
+      "24.0 ± 0.3",
+      "3.0 ± 0.3"
+    ]
+  ],
+  "group_rows": [
+    0
+  ],
+  "caption": "SYNTHETIC EXAMPLE. Synthetic means and SD over three independent runs. Latency includes preprocessing, model and postprocessing; memory denotes peak allocation. No real hardware was measured. Bold: best displayed mean within each comparison block; ties at displayed precision are retained. This marking is not a significance test.",
+  "column_widths": null,
+  "best_cells": [
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "ranks": {
+    "device|Small|Inference|ACC": 3,
+    "device|Large|Inference|ACC": 1,
+    "device|Adaptive|Inference|ACC": 2,
+    "device|Small|Inference|latency": 1,
+    "device|Large|Inference|latency": 3,
+    "device|Adaptive|Inference|latency": 2,
+    "device|Small|Inference|memory": 1,
+    "device|Large|Inference|memory": 3,
+    "device|Adaptive|Inference|memory": 2
+  },
+  "cells": {
+    "device|Small|Inference|memory": {
+      "mean": 2.0,
+      "sd": 0.29999999999999993,
+      "n": 3
+    },
+    "device|Large|Inference|memory": {
+      "mean": 6.0,
+      "sd": 0.2999999999999998,
+      "n": 3
+    },
+    "device|Large|Inference|latency": {
+      "mean": 45.0,
+      "sd": 0.29999999999999716,
+      "n": 3
+    },
+    "device|Small|Inference|latency": {
+      "mean": 12.0,
+      "sd": 0.3000000000000007,
+      "n": 3
+    },
+    "device|Adaptive|Inference|ACC": {
+      "mean": 80.0,
+      "sd": 0.29999999999999716,
+      "n": 3
+    },
+    "device|Small|Inference|ACC": {
+      "mean": 70.0,
+      "sd": 0.29999999999999716,
+      "n": 3
+    },
+    "device|Large|Inference|ACC": {
+      "mean": 82.0,
+      "sd": 0.29999999999999716,
+      "n": 3
+    },
+    "device|Adaptive|Inference|memory": {
+      "mean": 3.0,
+      "sd": 0.2999999999999998,
+      "n": 3
+    },
+    "device|Adaptive|Inference|latency": {
+      "mean": 24.0,
+      "sd": 0.3000000000000007,
+      "n": 3
+    }
+  }
+}

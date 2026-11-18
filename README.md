@@ -79,7 +79,7 @@ flowchart LR
 
 ## 3. 安装
 
-把本项目的仓库链接、发布包路径或已解压目录交给正在使用的智能体，由它完成安装。**安装技能无需 Python，也无需手动运行安装脚本。**维护源中的发布包位于 `dist/paper-express-3.0.0.zip`。
+把本项目的仓库链接、发布包路径或已解压目录交给正在使用的智能体，由它完成安装。**安装技能无需 Python，也无需手动运行安装脚本。**维护源中的发布包位于 `dist/paper-express-3.0.0.zip`。[下载技能 ZIP](https://github.com/Leehowee/paper-express/raw/refs/heads/master/dist/paper-express-3.0.0.zip) · [SHA-256](https://github.com/Leehowee/paper-express/blob/master/dist/paper-express-3.0.0.zip.sha256)。也可提供本地 ZIP 路径或已解压的 `paper-express` 目录。
 
 ### 3.1 让 Codex 安装
 
@@ -87,7 +87,7 @@ flowchart LR
 
 ```text
 请将 Paper-Express 安装为我的 Codex 用户级技能。
-来源：[本项目仓库地址、paper-express-3.0.0.zip 的本地路径，或已解压的 paper-express 目录]
+来源：https://github.com/Leehowee/paper-express
 
 先阅读来源中的 README 和 INSTALL.md。如果提供的是维护源仓库，使用 dist/ 下的发布包。
 用系统解压与文件工具取得完整的 paper-express 目录，安装到当前 Codex 实际读取的用户级 skills 目录。
@@ -104,7 +104,7 @@ Codex 常见用户目录为 `~/.agents/skills/`；已有环境可能使用 `$COD
 
 ```text
 请将 Paper-Express 安装为我的 Claude Code 用户级技能。
-来源：[本项目仓库地址、paper-express-3.0.0.zip 的本地路径，或已解压的 paper-express 目录]
+来源：https://github.com/Leehowee/paper-express
 
 先阅读来源中的 README 和 INSTALL.md。如果提供的是维护源仓库，使用 dist/ 下的发布包。
 用系统解压与文件工具，将完整的 paper-express 目录放到 ~/.claude/skills/paper-express/。
@@ -247,7 +247,7 @@ python packaging/build_release.py
 
 维护者可运行 `python packaging/test_release.py`，在隔离临时目录中检查发布结构、文档链接、清单散列和整包复制后的完整性；该检查不会安装到全局技能目录。构建器检查包内链接并生成 SHA-256 清单。维护工具仅用于构建和验证，发布包可由智能体使用系统文件工具直接安装。
 
-已有检查包括图表数据重算、无效输入拒绝和 PPTX 对象结构；具体范围见 [整体验证记录](references/final-validation.md) 与 [图表验证记录](paper-figures-tables/references/validation.md)。维护源的 `packaging/VALIDATION.md` 和配套 JSON 保存安装测试记录。目录安装验证与宿主 UI 实测分别表述，模板检查也不替代真实论文的实验和证明。
+已有检查包括图表数据重算、无效输入拒绝和 PPTX 对象结构；具体范围见 [整体验证记录](references/final-validation.md) 与 [图表验证记录](paper-figures-tables/references/validation.md)。维护源的 `packaging/VALIDATION.md` 保存发布检查结论，临时机器记录写入 `.build/`；后续更新见 [维护说明](https://github.com/Leehowee/paper-express/blob/master/CONTRIBUTING.md)。目录安装验证与宿主 UI 实测分别表述，模板检查也不替代真实论文的实验和证明。
 
 <a id="sources"></a>
 
@@ -266,4 +266,4 @@ Paper-Express 的技能组织、任务路由和文档呈现参考 [nature-skills
 
 原论文 PDF、原图和上游归档不随发布包分发。包内保留来源定位、阅读分析及必要的许可文件。
 
-上游 Nature Skills 的相关许可文本见 [Apache-2.0 许可副本](paper-critical-review/licenses/nature-skills-LICENSE.txt)。绘图参考来源 [figures4papers](https://github.com/ChenLiu-1996/figures4papers) 的本地快照包含 CC BY-NC 4.0 材料，见 [第三方说明](paper-figures-tables/THIRD_PARTY.md) 与 [许可文本](paper-figures-tables/licenses/figures4papers-CC-BY-NC-4.0.txt)。这些来源的条款分别保留；当前发布包没有统一声明整包适用 Apache-2.0 或 MIT。
+上游 Nature Skills 的相关许可文本见 [Apache-2.0 许可副本](paper-critical-review/licenses/nature-skills-LICENSE.txt)。绘图参考来源 [figures4papers](https://github.com/ChenLiu-1996/figures4papers) 的本地快照包含 CC BY-NC 4.0 材料，见 [第三方说明](paper-figures-tables/THIRD_PARTY.md) 与 [许可文本](paper-figures-tables/licenses/figures4papers-CC-BY-NC-4.0.txt)。项目原创内容适用仓库所有者选定的 [MIT 许可证](LICENSE)，第三方材料仍保留各自条款；范围与例外见 [NOTICE.md](NOTICE.md)。

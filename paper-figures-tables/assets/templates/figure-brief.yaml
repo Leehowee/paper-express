@@ -1,0 +1,34 @@
+# 只填写当前图表所需字段；未知值保留 null，不填入猜测数据。
+request_id: FIG1
+claim_ids: []
+task: create # plan | create | revise | audit | caption
+section: standalone # introduction | methods | experiments | appendix
+purpose: null # 一句话说明读者应回答的问题
+template_id: null # 例如 F01-motivation、T01-main、D02-method
+content_kind: measured # measured | model-output | schematic | mixed | synthetic-example
+sources: [] # 文件路径、版本、字段或公式位置；引用数据须注明 quoted
+data_semantics:
+  metrics: [] # name, unit, direction
+  independent_unit: null
+  repeats: null
+  uncertainty: null # SD / SE / CI / none，附定义
+  missing_codes: {}
+comparison_protocol:
+  split: null
+  supervision: null
+  budget: null
+  parameter_selection: null
+  paired_runs: null
+  separate_reference_groups: []
+design_content:
+  panels: []
+  method_variables_and_equations: []
+  case_selection: null
+layout:
+  venue_and_year: null
+  location: main_text
+  width_mm: null
+  height_mm: null
+  columns: null
+outputs: [publication_asset, editable_source, generation_code, caption, stable_label]
+known_limits: []

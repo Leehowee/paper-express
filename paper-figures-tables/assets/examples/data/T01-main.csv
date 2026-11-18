@@ -1,0 +1,45 @@
+group,method,dataset,metric,run,value,status
+matched,Baseline A,Set A,ACC,1,73.7,ok
+matched,Baseline A,Set A,ACC,2,74,ok
+matched,Baseline A,Set A,ACC,3,74.3,ok
+matched,Baseline A,Set A,NMI,1,61.7,ok
+matched,Baseline A,Set A,NMI,2,62,ok
+matched,Baseline A,Set A,NMI,3,62.3,ok
+matched,Baseline A,Set B,ACC,failed,,OOM
+matched,Baseline A,Set B,NMI,failed,,OOM
+matched,Baseline B,Set A,ACC,1,76.7,ok
+matched,Baseline B,Set A,ACC,2,77,ok
+matched,Baseline B,Set A,ACC,3,77.3,ok
+matched,Baseline B,Set A,NMI,1,63.7,ok
+matched,Baseline B,Set A,NMI,2,64,ok
+matched,Baseline B,Set A,NMI,3,64.3,ok
+matched,Baseline B,Set B,ACC,1,78.7,ok
+matched,Baseline B,Set B,ACC,2,79,ok
+matched,Baseline B,Set B,ACC,3,79.3,ok
+matched,Baseline B,Set B,NMI,1,69.7,ok
+matched,Baseline B,Set B,NMI,2,70,ok
+matched,Baseline B,Set B,NMI,3,70.3,ok
+matched,Proposed,Set A,ACC,1,78.7,ok
+matched,Proposed,Set A,ACC,2,79,ok
+matched,Proposed,Set A,ACC,3,79.3,ok
+matched,Proposed,Set A,NMI,1,64.7,ok
+matched,Proposed,Set A,NMI,2,65,ok
+matched,Proposed,Set A,NMI,3,65.3,ok
+matched,Proposed,Set B,ACC,1,78.7,ok
+matched,Proposed,Set B,ACC,2,79,ok
+matched,Proposed,Set B,ACC,3,79.3,ok
+matched,Proposed,Set B,NMI,1,68.7,ok
+matched,Proposed,Set B,NMI,2,69,ok
+matched,Proposed,Set B,NMI,3,69.3,ok
+extra,Reference+,Set A,ACC,1,83.7,ok
+extra,Reference+,Set A,ACC,2,84,ok
+extra,Reference+,Set A,ACC,3,84.3,ok
+extra,Reference+,Set A,NMI,1,71.7,ok
+extra,Reference+,Set A,NMI,2,72,ok
+extra,Reference+,Set A,NMI,3,72.3,ok
+extra,Reference+,Set B,ACC,1,85.7,ok
+extra,Reference+,Set B,ACC,2,86,ok
+extra,Reference+,Set B,ACC,3,86.3,ok
+extra,Reference+,Set B,NMI,1,74.7,ok
+extra,Reference+,Set B,NMI,2,75,ok
+extra,Reference+,Set B,NMI,3,75.3,ok
